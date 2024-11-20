@@ -15,7 +15,7 @@
       <!-- <a-menu-item key="vscode">
         <a
           target="_blank"
-          href="https://marketplace.visualstudio.com/items?itemName=ant-design-vue.vscode-ant-design-vue-helper"
+          href="https://marketplace.visualstudio.com/items?itemName=@kaoniqiwa/trina-ui.vscode-@kaoniqiwa/trina-ui-helper"
         >
           VS Code Extension
         </a>

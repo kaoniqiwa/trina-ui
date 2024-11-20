@@ -1,4 +1,4 @@
-import { Tree } from 'ant-design-vue';
+import { Tree } from '@kaoniqiwa/trina-ui';
 import type { ComponentDemo } from '../../interface';
 
 const treeData = [

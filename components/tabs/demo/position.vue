@@ -31,7 +31,7 @@ Tab's position: left, right, top or bottom.  Will auto switch to `top` in mobile
 </template>
 <script lang="ts" setup>
 import { ref } from 'vue';
-import { TabsProps } from 'ant-design-vue/es/tabs';
+import { TabsProps } from '@kaoniqiwa/trina-ui/es/tabs';
 const tabPosition = ref<TabsProps['tabPosition']>('top');
 const activeKey = ref('1');
 </script>

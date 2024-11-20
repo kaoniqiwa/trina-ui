@@ -41,8 +41,8 @@ We can upload serveral files at once by giving the input the `multiple` attribut
 <script lang="ts" setup>
 import { ref } from 'vue';
 import { InboxOutlined } from '@ant-design/icons-vue';
-import { message } from 'ant-design-vue';
-import type { UploadChangeParam } from 'ant-design-vue';
+import { message } from '@kaoniqiwa/trina-ui';
+import type { UploadChangeParam } from '@kaoniqiwa/trina-ui';
 const fileList = ref([]);
 const handleChange = (info: UploadChangeParam) => {
   const status = info.file.status;

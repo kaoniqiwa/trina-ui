@@ -1,6 +1,6 @@
 import { defineComponent, toRefs } from 'vue';
 import type { CSSProperties } from 'vue';
-import classNames from 'ant-design-vue/es/_util/classNames';
+import classNames from '@kaoniqiwa/trina-ui/es/_util/classNames';
 import makeStyle from './utils/makeStyle';
 import getColorBgImg from './utils/getColorBgImg';
 

@@ -19,9 +19,9 @@ To perform operations and clear selections after selecting some rows, use `rowSe
 <template>
   <div>
     <div style="margin-bottom: 16px">
-      <a-button type="primary" :disabled="!hasSelected" :loading="state.loading" @click="start">
+      <t-button type="primary" :disabled="!hasSelected" :loading="state.loading" @click="start">
         Reload
-      </a-button>
+      </t-button>
       <span style="margin-left: 8px">
         <template v-if="hasSelected">
           {{ `Selected ${state.selectedRowKeys.length} items` }}

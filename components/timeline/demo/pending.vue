@@ -24,7 +24,7 @@ When the timeline is incomplete and ongoing, put a ghost node at last. Set `pend
       <a-timeline-item>Solve initial network problems 2015-09-01</a-timeline-item>
       <a-timeline-item>Technical testing 2015-09-01</a-timeline-item>
     </a-timeline>
-    <a-button type="primary" style="margin-top: 16px" @click="handleClick">Toggle Reverse</a-button>
+    <t-button type="primary" style="margin-top: 16px" @click="handleClick">Toggle Reverse</t-button>
   </div>
 </template>
 <script lang="ts" setup>

@@ -22,10 +22,10 @@ Here is [a complete demo](/components/layout/#components-layout-demo-side) with 
 
 <template>
   <div style="width: 256px">
-    <a-button type="primary" style="margin-bottom: 16px" @click="toggleCollapsed">
+    <t-button type="primary" style="margin-bottom: 16px" @click="toggleCollapsed">
       <MenuUnfoldOutlined v-if="state.collapsed" />
       <MenuFoldOutlined v-else />
-    </a-button>
+    </t-button>
     <a-menu
       v-model:openKeys="state.openKeys"
       v-model:selectedKeys="state.selectedKeys"

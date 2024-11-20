@@ -26,9 +26,9 @@ Use the operating area and customize the sub-nodes, suitable for use in the need
       @back="() => $router.go(-1)"
     >
       <template #extra>
-        <a-button key="3">Operation</a-button>
-        <a-button key="2">Operation</a-button>
-        <a-button key="1" type="primary">Primary</a-button>
+        <t-button key="3">Operation</t-button>
+        <t-button key="2">Operation</t-button>
+        <t-button key="1" type="primary">Primary</t-button>
       </template>
       <a-descriptions size="small" :column="3">
         <a-descriptions-item label="Created">Lili Qu</a-descriptions-item>
@@ -48,9 +48,9 @@ Use the operating area and customize the sub-nodes, suitable for use in the need
         <a-tag color="blue">Running</a-tag>
       </template>
       <template #extra>
-        <a-button key="3">Operation</a-button>
-        <a-button key="2">Operation</a-button>
-        <a-button key="1" type="primary">Primary</a-button>
+        <t-button key="3">Operation</t-button>
+        <t-button key="2">Operation</t-button>
+        <t-button key="1" type="primary">Primary</t-button>
       </template>
       <a-row type="flex">
         <a-statistic title="Status" value="Pending" />

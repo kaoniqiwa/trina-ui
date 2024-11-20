@@ -21,9 +21,9 @@ Under different screen sizes, there should be different performance
   <div class="components-page-header-demo-responsive" style="border: 1px solid rgb(235, 237, 240)">
     <a-page-header title="Title" sub-title="This is a subtitle" @back="() => $router.go(-1)">
       <template #extra>
-        <a-button key="3">Operation</a-button>
-        <a-button key="2">Operation</a-button>
-        <a-button key="1" type="primary">Primary</a-button>
+        <t-button key="3">Operation</t-button>
+        <t-button key="2">Operation</t-button>
+        <t-button key="1" type="primary">Primary</t-button>
       </template>
       <template #footer>
         <a-tabs>

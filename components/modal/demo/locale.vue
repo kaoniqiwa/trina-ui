@@ -18,8 +18,8 @@ To customize the text of the buttons, you need to set `okText` and `cancelText` 
 
 <template>
   <div>
-    <a-button type="primary" @click="showModal">Modal</a-button>
-    <a-button @click="confirm">Confirm</a-button>
+    <t-button type="primary" @click="showModal">Modal</t-button>
+    <t-button @click="confirm">Confirm</t-button>
     <a-modal v-model:open="open" title="Modal" ok-text="确认" cancel-text="取消" @ok="hideModal">
       <p>Bla bla ...</p>
       <p>Bla bla ...</p>
@@ -30,7 +30,7 @@ To customize the text of the buttons, you need to set `okText` and `cancelText` 
 <script lang="ts" setup>
 import { ExclamationCircleOutlined } from '@ant-design/icons-vue';
 import { ref, createVNode } from 'vue';
-import { Modal } from 'ant-design-vue';
+import { Modal } from '@kaoniqiwa/trina-ui';
 const open = ref<boolean>(false);
 
 const showModal = () => {

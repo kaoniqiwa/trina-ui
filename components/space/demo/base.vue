@@ -20,15 +20,15 @@ Crowded components horizontal spacing.
 <template>
   <a-space>
     Space
-    <a-button type="primary">Button</a-button>
+    <t-button type="primary">Button</t-button>
     <a-upload>
-      <a-button>
+      <t-button>
         <UploadOutlined />
         Click to Upload
-      </a-button>
+      </t-button>
     </a-upload>
     <a-popconfirm title="Are you sure delete this task?" ok-text="Yes" cancel-text="No">
-      <a-button>Confirm</a-button>
+      <t-button>Confirm</t-button>
     </a-popconfirm>
   </a-space>
 </template>

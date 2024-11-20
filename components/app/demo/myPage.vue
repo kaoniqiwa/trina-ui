@@ -1,13 +1,13 @@
 <template>
   <a-space>
-    <a-button type="primary" @click="showMessage">Open message</a-button>
-    <a-button type="primary" @click="showModal">Open modal</a-button>
-    <a-button type="primary" @click="showNotification">Open notification</a-button>
+    <t-button type="primary" @click="showMessage">Open message</t-button>
+    <t-button type="primary" @click="showModal">Open modal</t-button>
+    <t-button type="primary" @click="showNotification">Open notification</t-button>
   </a-space>
 </template>
 
 <script setup lang="ts">
-import { App } from 'ant-design-vue';
+import { App } from '@kaoniqiwa/trina-ui';
 
 const { message, modal, notification } = App.useApp();
 

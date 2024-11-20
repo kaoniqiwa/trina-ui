@@ -34,14 +34,14 @@ use [`Form.useForm`](#useform) provides form validation logic and status.
       </a-checkbox-group>
     </a-form-item>
     <a-form-item :wrapper-col="{ span: 14, offset: 4 }">
-      <a-button type="primary" @click.prevent="onSubmit">Create</a-button>
-      <a-button style="margin-left: 10px" @click="resetFields">Reset</a-button>
+      <t-button type="primary" @click.prevent="onSubmit">Create</t-button>
+      <t-button style="margin-left: 10px" @click="resetFields">Reset</t-button>
     </a-form-item>
   </a-form>
 </template>
 <script lang="ts" setup>
 import { reactive, toRaw } from 'vue';
-import { Form } from 'ant-design-vue';
+import { Form } from '@kaoniqiwa/trina-ui';
 
 const useForm = Form.useForm;
 

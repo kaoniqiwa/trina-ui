@@ -27,7 +27,7 @@ Render radios by configuring `options`.
 </template>
 <script lang="ts" setup>
 import { ref } from 'vue';
-import { RadioGroupProps } from 'ant-design-vue';
+import { RadioGroupProps } from '@kaoniqiwa/trina-ui';
 const plainOptions = ['Apple', 'Pear', 'Orange'];
 const optionsWithDisabled: RadioGroupProps['options'] = [
   { label: 'Apple', value: 'Apple' },

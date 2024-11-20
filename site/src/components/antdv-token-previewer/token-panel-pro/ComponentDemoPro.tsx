@@ -1,4 +1,4 @@
-import { ConfigProvider, Segmented, Space, theme as antdTheme } from 'ant-design-vue';
+import { ConfigProvider, Segmented, Space, theme as antdTheme } from '@kaoniqiwa/trina-ui';
 import type { MutableTheme } from '../interface';
 import type { PropType, CSSProperties } from 'vue';
 import { defineComponent, toRefs, ref, computed } from 'vue';

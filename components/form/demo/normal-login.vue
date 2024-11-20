@@ -55,9 +55,9 @@ Normal login form which can contain more elements.
     </a-form-item>
 
     <a-form-item>
-      <a-button :disabled="disabled" type="primary" html-type="submit" class="login-form-button">
+      <t-button :disabled="disabled" type="primary" html-type="submit" class="login-form-button">
         Log in
-      </a-button>
+      </t-button>
       Or
       <a href="">register now!</a>
     </a-form-item>

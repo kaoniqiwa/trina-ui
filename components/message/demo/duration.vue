@@ -17,10 +17,10 @@ Customize message display duration from default `3s` to `10s`.
 </docs>
 
 <template>
-  <a-button @click="success">Customized display duration</a-button>
+  <t-button @click="success">Customized display duration</t-button>
 </template>
 <script lang="ts" setup>
-import { message } from 'ant-design-vue';
+import { message } from '@kaoniqiwa/trina-ui';
 const success = () => {
   message.success('This is a prompt message for success, and it will disappear in 10 seconds', 10);
 };

@@ -48,8 +48,8 @@ In this case, submit button is in the Modal which is out of Form. You can use `f
     </a-form-item>
 
     <a-form-item v-bind="tailLayout">
-      <a-button html-type="submit" type="primary">Submit</a-button>
-      <a-button html-type="button" style="margin: 0 8px" @click="visible = true">Add User</a-button>
+      <t-button html-type="submit" type="primary">Submit</t-button>
+      <t-button html-type="button" style="margin: 0 8px" @click="visible = true">Add User</t-button>
     </a-form-item>
   </a-form>
   <a-modal v-model:open="visible" title="Basic Drawer" @ok="onOk">
@@ -65,7 +65,7 @@ In this case, submit button is in the Modal which is out of Form. You can use `f
 </template>
 <script lang="ts" setup>
 import { reactive, ref, watch, toRaw } from 'vue';
-import type { FormInstance } from 'ant-design-vue';
+import type { FormInstance } from '@kaoniqiwa/trina-ui';
 import { SmileOutlined, UserOutlined } from '@ant-design/icons-vue';
 
 interface UserType {

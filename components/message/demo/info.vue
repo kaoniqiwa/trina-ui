@@ -17,10 +17,10 @@ Normal message for information.
 </docs>
 
 <template>
-  <a-button type="primary" @click="info">Display normal message</a-button>
+  <t-button type="primary" @click="info">Display normal message</t-button>
 </template>
 <script lang="ts" setup>
-import { message } from 'ant-design-vue';
+import { message } from '@kaoniqiwa/trina-ui';
 const info = () => {
   message.info('This is a normal message');
 };

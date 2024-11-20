@@ -23,8 +23,8 @@ Complex error feedback.
     sub-title="Please check and modify the following information before resubmitting."
   >
     <template #extra>
-      <a-button key="console" type="primary">Go Console</a-button>
-      <a-button key="buy">Buy Again</a-button>
+      <t-button key="console" type="primary">Go Console</t-button>
+      <t-button key="buy">Buy Again</t-button>
     </template>
 
     <div class="desc">

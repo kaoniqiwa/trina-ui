@@ -28,7 +28,7 @@ The basic example.
   </a-popconfirm>
 </template>
 <script lang="ts" setup>
-import { message } from 'ant-design-vue';
+import { message } from '@kaoniqiwa/trina-ui';
 const confirm = (e: MouseEvent) => {
   console.log(e);
   message.success('Click on Yes');

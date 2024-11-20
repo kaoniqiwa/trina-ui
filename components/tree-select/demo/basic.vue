@@ -36,7 +36,7 @@ The most basic usage.
 </template>
 <script lang="ts" setup>
 import { ref, watch } from 'vue';
-import type { TreeSelectProps } from 'ant-design-vue';
+import type { TreeSelectProps } from '@kaoniqiwa/trina-ui';
 const value = ref<string>();
 const treeData = ref<TreeSelectProps['treeData']>([
   {

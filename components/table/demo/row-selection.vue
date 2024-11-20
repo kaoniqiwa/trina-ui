@@ -26,7 +26,7 @@ selection happens when clicking checkbox defaultly. You can see https://codesand
   </a-table>
 </template>
 <script lang="ts" setup>
-import type { TableProps, TableColumnType } from 'ant-design-vue';
+import type { TableProps, TableColumnType } from '@kaoniqiwa/trina-ui';
 
 interface DataType {
   key: string;

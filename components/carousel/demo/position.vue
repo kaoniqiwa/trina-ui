@@ -32,7 +32,7 @@ There are 4 position options available.
 
 <script lang="ts" setup>
 import { ref } from 'vue';
-import type { CarouselProps } from 'ant-design-vue';
+import type { CarouselProps } from '@kaoniqiwa/trina-ui';
 const dotPosition = ref<CarouselProps['dotPosition']>('top');
 </script>
 

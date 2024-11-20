@@ -59,13 +59,13 @@ This example demonstrates the case that a form contains multiple form controls.
       <MinusCircleOutlined @click="removeSight(sight)" />
     </a-space>
     <a-form-item>
-      <a-button type="dashed" block @click="addSight">
+      <t-button type="dashed" block @click="addSight">
         <PlusOutlined />
         Add sights
-      </a-button>
+      </t-button>
     </a-form-item>
     <a-form-item>
-      <a-button type="primary" html-type="submit">Submit</a-button>
+      <t-button type="primary" html-type="submit">Submit</t-button>
     </a-form-item>
   </a-form>
 </template>
@@ -73,7 +73,7 @@ This example demonstrates the case that a form contains multiple form controls.
 <script lang="ts" setup>
 import { reactive, ref, watch } from 'vue';
 import { MinusCircleOutlined, PlusOutlined } from '@ant-design/icons-vue';
-import type { FormInstance } from 'ant-design-vue';
+import type { FormInstance } from '@kaoniqiwa/trina-ui';
 
 interface Sights {
   value: string;

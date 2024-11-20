@@ -1,5 +1,5 @@
 import { defineComponent } from 'vue';
-import { Input, theme } from 'ant-design-vue';
+import { Input, theme } from '@kaoniqiwa/trina-ui';
 import { CheckCircleFilled } from '@ant-design/icons-vue';
 import type { ComponentDemo } from '../../interface';
 

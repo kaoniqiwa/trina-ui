@@ -1,5 +1,5 @@
 import { defineComponent } from 'vue';
-import { Segmented } from 'ant-design-vue';
+import { Segmented } from '@kaoniqiwa/trina-ui';
 
 import type { ComponentDemo } from '../../interface';
 

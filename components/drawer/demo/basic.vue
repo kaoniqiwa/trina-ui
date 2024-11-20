@@ -17,7 +17,7 @@ Basic drawer.
 </docs>
 
 <template>
-  <a-button type="primary" @click="showDrawer">Open</a-button>
+  <t-button type="primary" @click="showDrawer">Open</t-button>
   <a-drawer
     v-model:open="open"
     class="custom-class"

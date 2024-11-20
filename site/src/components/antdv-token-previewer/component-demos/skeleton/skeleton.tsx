@@ -1,4 +1,4 @@
-import { Skeleton } from 'ant-design-vue';
+import { Skeleton } from '@kaoniqiwa/trina-ui';
 
 import type { ComponentDemo } from '../../interface';
 

@@ -60,7 +60,7 @@ Skeleton Button, Avatar, Input and Image.
 </template>
 <script lang="ts" setup>
 import { ref } from 'vue';
-import type { SkeletonButtonProps, SkeletonAvatarProps } from 'ant-design-vue';
+import type { SkeletonButtonProps, SkeletonAvatarProps } from '@kaoniqiwa/trina-ui';
 const active = ref(false);
 const block = ref(false);
 const size = ref<SkeletonButtonProps['size']>('default');

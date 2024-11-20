@@ -1,5 +1,5 @@
 import { defineComponent } from 'vue';
-import { Dropdown } from 'ant-design-vue';
+import { Dropdown } from '@kaoniqiwa/trina-ui';
 import { DownOutlined } from '@ant-design/icons-vue';
 
 import menu from './menu';

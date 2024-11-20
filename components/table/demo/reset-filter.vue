@@ -26,16 +26,16 @@ Control filters and sorters by `filteredValue` and `sortOrder`.
 <template>
   <div>
     <div class="table-operations">
-      <a-button @click="setAgeSort">Sort age</a-button>
-      <a-button @click="clearFilters">Clear filters</a-button>
-      <a-button @click="clearAll">Clear filters and sorters</a-button>
+      <t-button @click="setAgeSort">Sort age</t-button>
+      <t-button @click="clearFilters">Clear filters</t-button>
+      <t-button @click="clearAll">Clear filters and sorters</t-button>
     </div>
     <a-table :columns="columns" :data-source="data" @change="handleChange" />
   </div>
 </template>
 <script lang="ts" setup>
 import { computed, ref } from 'vue';
-import type { TableColumnType, TableProps } from 'ant-design-vue';
+import type { TableColumnType, TableProps } from '@kaoniqiwa/trina-ui';
 
 interface DataItem {
   key: string;

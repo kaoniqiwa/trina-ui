@@ -17,10 +17,10 @@ Use form in drawer with submit button.
 </docs>
 
 <template>
-  <a-button type="primary" @click="showDrawer">
+  <t-button type="primary" @click="showDrawer">
     <template #icon><PlusOutlined /></template>
     New account
-  </a-button>
+  </t-button>
   <a-drawer
     title="Create a new account"
     :width="720"
@@ -99,8 +99,8 @@ Use form in drawer with submit button.
     </a-form>
     <template #extra>
       <a-space>
-        <a-button @click="onClose">Cancel</a-button>
-        <a-button type="primary" @click="onClose">Submit</a-button>
+        <t-button @click="onClose">Cancel</t-button>
+        <t-button type="primary" @click="onClose">Submit</t-button>
       </a-space>
     </template>
   </a-drawer>
@@ -108,7 +108,7 @@ Use form in drawer with submit button.
 <script lang="ts" setup>
 import { reactive, ref } from 'vue';
 import { PlusOutlined } from '@ant-design/icons-vue';
-import type { Rule } from 'ant-design-vue/es/form';
+import type { Rule } from '@kaoniqiwa/trina-ui/es/form';
 const form = reactive({
   name: '',
   url: '',

@@ -1,4 +1,4 @@
-import { Spin } from 'ant-design-vue';
+import { Spin } from '@kaoniqiwa/trina-ui';
 import type { ComponentDemo } from '../../interface';
 
 const Demo = () => <Spin />;

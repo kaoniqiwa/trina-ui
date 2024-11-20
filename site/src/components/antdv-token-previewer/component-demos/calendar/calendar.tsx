@@ -1,4 +1,4 @@
-import { Calendar } from 'ant-design-vue';
+import { Calendar } from '@kaoniqiwa/trina-ui';
 import type { ComponentDemo } from '../../interface';
 
 const Demo = () => <Calendar />;

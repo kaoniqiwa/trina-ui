@@ -28,7 +28,7 @@ Skeleton contains sub component.
         </p>
       </div>
     </a-skeleton>
-    <a-button :disabled="loading" @click="showSkeleton">Show Skeleton</a-button>
+    <t-button :disabled="loading" @click="showSkeleton">Show Skeleton</t-button>
   </a-space>
 </template>
 <script lang="ts" setup>

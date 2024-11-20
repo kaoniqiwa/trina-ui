@@ -29,7 +29,7 @@ customize collapse/expand icon of tree node
 <script lang="ts" setup>
 import { ref } from 'vue';
 import { DownOutlined } from '@ant-design/icons-vue';
-import type { TreeProps } from 'ant-design-vue';
+import type { TreeProps } from '@kaoniqiwa/trina-ui';
 const expandedKeys = ref<string[]>(['0-0-0']);
 const selectedKeys = ref<string[]>([]);
 const treeData: TreeProps['treeData'] = [

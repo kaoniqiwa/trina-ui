@@ -104,7 +104,7 @@ message.config({
   <!-- <component :is='contextHolder'/> -->
 </template>
 <script setup>
-  import { message } from 'ant-design-vue';
+  import { message } from '@kaoniqiwa/trina-ui';
   const [messageApi, contextHolder] = message.useMessage();
   messageApi.open({
     // ...

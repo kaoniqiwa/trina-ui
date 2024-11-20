@@ -17,10 +17,10 @@ title:
 </docs>
 
 <template>
-  <a-button @click="success">Display a sequence of message</a-button>
+  <t-button @click="success">Display a sequence of message</t-button>
 </template>
 <script lang="ts" setup>
-import { message } from 'ant-design-vue';
+import { message } from '@kaoniqiwa/trina-ui';
 const success = () => {
   message
     .loading('Action in progress..', 2.5)

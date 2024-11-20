@@ -25,7 +25,7 @@ Use `useBreakpoint` Hook provide personalized layout.
   </template>
 </template>
 <script lang="ts" setup>
-import { Grid } from 'ant-design-vue';
+import { Grid } from '@kaoniqiwa/trina-ui';
 
 const useBreakpoint = Grid.useBreakpoint;
 const screens = useBreakpoint();

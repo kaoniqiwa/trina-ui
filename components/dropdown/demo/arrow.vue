@@ -20,7 +20,7 @@ You could display an arrow.
   <a-space style="display: flex; flex-wrap: wrap">
     <template v-for="placement in placements" :key="placement">
       <a-dropdown :placement="placement" arrow>
-        <a-button>{{ placement }}</a-button>
+        <t-button>{{ placement }}</t-button>
         <template #overlay>
           <a-menu>
             <a-menu-item>

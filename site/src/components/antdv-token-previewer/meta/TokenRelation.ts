@@ -1,7 +1,7 @@
-import type { AliasToken, MapToken, SeedToken } from 'ant-design-vue/es/theme/interface';
-import defaultMap from 'ant-design-vue/es/theme/themes/default';
-import seedToken from 'ant-design-vue/es/theme/themes/seed';
-import formatToken from 'ant-design-vue/es/theme/util/alias';
+import type { AliasToken, MapToken, SeedToken } from '@kaoniqiwa/trina-ui/es/theme/interface';
+import defaultMap from '@kaoniqiwa/trina-ui/es/theme/themes/default';
+import seedToken from '@kaoniqiwa/trina-ui/es/theme/themes/seed';
+import formatToken from '@kaoniqiwa/trina-ui/es/theme/util/alias';
 
 export type PureAliasToken = Omit<AliasToken, keyof MapToken>;
 

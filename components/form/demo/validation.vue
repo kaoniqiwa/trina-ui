@@ -61,8 +61,8 @@ Just add the `rules` attribute for `Form` component, pass validation rules, and 
       <a-textarea v-model:value="formState.desc" />
     </a-form-item>
     <a-form-item :wrapper-col="{ span: 14, offset: 4 }">
-      <a-button type="primary" @click="onSubmit">Create</a-button>
-      <a-button style="margin-left: 10px" @click="resetForm">Reset</a-button>
+      <t-button type="primary" @click="onSubmit">Create</t-button>
+      <t-button style="margin-left: 10px" @click="resetForm">Reset</t-button>
     </a-form-item>
   </a-form>
 </template>
@@ -70,7 +70,7 @@ Just add the `rules` attribute for `Form` component, pass validation rules, and 
 import { Dayjs } from 'dayjs';
 import { reactive, ref, toRaw } from 'vue';
 import type { UnwrapRef } from 'vue';
-import type { Rule } from 'ant-design-vue/es/form';
+import type { Rule } from '@kaoniqiwa/trina-ui/es/form';
 
 interface FormState {
   name: string;

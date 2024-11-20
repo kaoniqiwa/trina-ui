@@ -1,4 +1,4 @@
-import { Empty } from 'ant-design-vue';
+import { Empty } from '@kaoniqiwa/trina-ui';
 import type { ComponentDemo } from '../../interface';
 
 const Demo = () => <Empty />;

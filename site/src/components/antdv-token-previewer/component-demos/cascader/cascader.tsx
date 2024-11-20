@@ -1,4 +1,4 @@
-import { Cascader } from 'ant-design-vue';
+import { Cascader } from '@kaoniqiwa/trina-ui';
 
 import options from './data';
 import type { ComponentDemo } from '../../interface';

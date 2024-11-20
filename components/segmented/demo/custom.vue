@@ -47,7 +47,7 @@ Custom each Segmented Item.
 <script lang="ts" setup>
 import { ref } from 'vue';
 import { UserOutlined } from '@ant-design/icons-vue';
-import ASegmented from 'ant-design-vue/es/segmented/src/segmented';
+import ASegmented from '@kaoniqiwa/trina-ui/es/segmented/src/segmented';
 const data = ref([
   {
     value: 'user1',

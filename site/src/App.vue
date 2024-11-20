@@ -19,11 +19,11 @@ import enUS from '../../components/locale/en_US';
 import zhCN from '../../components/locale/zh_CN';
 import dayjs from 'dayjs';
 import 'dayjs/locale/zh-cn';
-import { theme as antdTheme } from 'ant-design-vue';
+import { theme as antdTheme } from '@kaoniqiwa/trina-ui';
 import SiteToken from './SiteToken.vue';
 import type { ThemeConfig } from '../../components/config-provider/context';
 
-const ANT_DESIGN_VUE_V4_THEME_EDITOR_THEME = 'ant-design-vue-v4-theme-editor-theme';
+const ANT_DESIGN_VUE_V4_THEME_EDITOR_THEME = '@kaoniqiwa/trina-ui-v4-theme-editor-theme';
 
 function isZhCN(name: string) {
   return /-cn\/?$/.test(name);

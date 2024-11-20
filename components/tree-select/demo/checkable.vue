@@ -29,8 +29,8 @@ Multiple and checkable.
 </template>
 <script lang="ts" setup>
 import { ref, watch } from 'vue';
-import type { TreeSelectProps } from 'ant-design-vue';
-import { TreeSelect } from 'ant-design-vue';
+import type { TreeSelectProps } from '@kaoniqiwa/trina-ui';
+import { TreeSelect } from '@kaoniqiwa/trina-ui';
 const SHOW_PARENT = TreeSelect.SHOW_PARENT;
 
 const treeData: TreeSelectProps['treeData'] = [

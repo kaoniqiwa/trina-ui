@@ -33,9 +33,9 @@ components: {
 </script>`;
 
 const mainJs = `import { createApp } from 'vue';
-import Antd from 'ant-design-vue';
+import Antd from '@kaoniqiwa/trina-ui';
 import App from './App';
-import 'ant-design-vue/dist/reset.css';
+import '@kaoniqiwa/trina-ui/dist/reset.css';
 
 const app = createApp(App);
 
@@ -67,7 +67,7 @@ export function getCodeSandboxParams(code: string, meta: Meta): string {
             dependencies: {
               ...getDeps(code),
               vue: packageInfo.peerDependencies.vue,
-              'ant-design-vue': packageInfo.version,
+              '@kaoniqiwa/trina-ui': packageInfo.version,
             },
             devDependencies: {
               '@vue/cli-plugin-babel': '~4.5.0',

@@ -1,5 +1,5 @@
 import { defineComponent } from 'vue';
-import { Popconfirm, message } from 'ant-design-vue';
+import { Popconfirm, message } from '@kaoniqiwa/trina-ui';
 import type { ComponentDemo } from '../../interface';
 
 function confirm() {

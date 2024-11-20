@@ -46,7 +46,7 @@
 
 ```html
 <a-icon type="smile" />
-<a-button icon="smile" />
+<t-button icon="smile" />
 ```
 
 2.0 中会采用按需引入的方式：
@@ -54,9 +54,9 @@
 ```html
 <template>
   <smile-outlined />
-  <a-button>
+  <t-button>
     <template #icon><smile-outlined /></template>
-  </a-button>
+  </t-button>
 </template>
 <script>
   import SmileOutlined from '@ant-design/icons-vue/SmileOutlined';

@@ -20,7 +20,7 @@ Disable option by specifying the `disabled` property in `options`.
 </template>
 <script lang="ts" setup>
 import { ref } from 'vue';
-import type { CascaderProps } from 'ant-design-vue';
+import type { CascaderProps } from '@kaoniqiwa/trina-ui';
 const options: CascaderProps['options'] = [
   {
     value: 'zhejiang',

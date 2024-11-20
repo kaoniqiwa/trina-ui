@@ -18,14 +18,14 @@ In the various types of information modal dialog, only one button to close dialo
 
 <template>
   <a-space wrap>
-    <a-button @click="info">Info</a-button>
-    <a-button @click="success">Success</a-button>
-    <a-button @click="error">Error</a-button>
-    <a-button @click="warning">Warning</a-button>
+    <t-button @click="info">Info</t-button>
+    <t-button @click="success">Success</t-button>
+    <t-button @click="error">Error</t-button>
+    <t-button @click="warning">Warning</t-button>
   </a-space>
 </template>
 <script lang="ts" setup>
-import { Modal } from 'ant-design-vue';
+import { Modal } from '@kaoniqiwa/trina-ui';
 import { h } from 'vue';
 const info = () => {
   Modal.info({

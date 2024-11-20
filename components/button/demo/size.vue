@@ -27,46 +27,46 @@ If a large or small button is desired, set the `size` property to either `large`
       <a-radio-button value="small">Small</a-radio-button>
     </a-radio-group>
     <a-space>
-      <a-button type="primary" :size="size">Primary</a-button>
-      <a-button :size="size">Normal</a-button>
-      <a-button type="dashed" :size="size">Dashed</a-button>
-      <a-button danger :size="size">Danger</a-button>
-      <a-button type="link" :size="size">Link</a-button>
+      <t-button type="primary" :size="size">Primary</t-button>
+      <t-button :size="size">Normal</t-button>
+      <t-button type="dashed" :size="size">Dashed</t-button>
+      <t-button danger :size="size">Danger</t-button>
+      <t-button type="link" :size="size">Link</t-button>
     </a-space>
     <a-space>
-      <a-button type="primary" :size="size">
+      <t-button type="primary" :size="size">
         <template #icon>
           <DownloadOutlined />
         </template>
-      </a-button>
-      <a-button type="primary" shape="circle" :size="size">
+      </t-button>
+      <t-button type="primary" shape="circle" :size="size">
         <template #icon>
           <DownloadOutlined />
         </template>
-      </a-button>
-      <a-button type="primary" shape="round" :size="size">
-        <template #icon>
-          <DownloadOutlined />
-        </template>
-        Download
-      </a-button>
-      <a-button type="primary" shape="round" :size="size">
-        <template #icon>
-          <DownloadOutlined />
-        </template>
-      </a-button>
-      <a-button type="primary" :size="size">
+      </t-button>
+      <t-button type="primary" shape="round" :size="size">
         <template #icon>
           <DownloadOutlined />
         </template>
         Download
-      </a-button>
+      </t-button>
+      <t-button type="primary" shape="round" :size="size">
+        <template #icon>
+          <DownloadOutlined />
+        </template>
+      </t-button>
+      <t-button type="primary" :size="size">
+        <template #icon>
+          <DownloadOutlined />
+        </template>
+        Download
+      </t-button>
     </a-space>
   </a-space>
 </template>
 <script lang="ts" setup>
 import { DownloadOutlined } from '@ant-design/icons-vue';
-import type { SizeType } from 'ant-design-vue/es/config-provider';
+import type { SizeType } from '@kaoniqiwa/trina-ui/es/config-provider';
 import { ref } from 'vue';
 const size = ref<SizeType>('large');
 </script>

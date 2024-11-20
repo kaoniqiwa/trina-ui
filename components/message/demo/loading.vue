@@ -17,10 +17,10 @@ Display a global loading indicator, which is dismissed by itself asynchronously.
 </docs>
 
 <template>
-  <a-button @click="success">Display a loading indicator</a-button>
+  <t-button @click="success">Display a loading indicator</t-button>
 </template>
 <script lang="ts" setup>
-import { message } from 'ant-design-vue';
+import { message } from '@kaoniqiwa/trina-ui';
 const success = () => {
   const hide = message.loading('Action in progress..', 0);
   setTimeout(hide, 2500);

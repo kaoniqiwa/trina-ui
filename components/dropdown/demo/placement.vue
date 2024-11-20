@@ -20,7 +20,7 @@ Support 6 placements.
   <div id="components-dropdown-demo-placement">
     <template v-for="(placement, index) in placements" :key="placement">
       <a-dropdown :placement="placement">
-        <a-button>{{ placement }}</a-button>
+        <t-button>{{ placement }}</t-button>
         <template #overlay>
           <a-menu>
             <a-menu-item>
@@ -46,7 +46,7 @@ Support 6 placements.
   </div>
 </template>
 <script lang="ts" setup>
-import type { DropdownProps } from 'ant-design-vue';
+import type { DropdownProps } from '@kaoniqiwa/trina-ui';
 const placements = [
   'bottomLeft',
   'bottom',

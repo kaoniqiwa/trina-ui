@@ -18,14 +18,14 @@ A notification box with a icon at the left side.
 
 <template>
   <div>
-    <a-button @click="() => openNotificationWithIcon('success')">Success</a-button>
-    <a-button @click="() => openNotificationWithIcon('info')">Info</a-button>
-    <a-button @click="() => openNotificationWithIcon('warning')">Warning</a-button>
-    <a-button @click="() => openNotificationWithIcon('error')">Error</a-button>
+    <t-button @click="() => openNotificationWithIcon('success')">Success</t-button>
+    <t-button @click="() => openNotificationWithIcon('info')">Info</t-button>
+    <t-button @click="() => openNotificationWithIcon('warning')">Warning</t-button>
+    <t-button @click="() => openNotificationWithIcon('error')">Error</t-button>
   </div>
 </template>
 <script lang="ts" setup>
-import { notification } from 'ant-design-vue';
+import { notification } from '@kaoniqiwa/trina-ui';
 const openNotificationWithIcon = (type: string) => {
   notification[type]({
     message: 'Notification Title',

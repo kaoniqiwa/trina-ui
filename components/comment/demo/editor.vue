@@ -43,9 +43,9 @@ Comment can be used as editor, user can customize the editor component.
         <a-textarea v-model:value="value" :rows="4" />
       </a-form-item>
       <a-form-item>
-        <a-button html-type="submit" :loading="submitting" type="primary" @click="handleSubmit">
+        <t-button html-type="submit" :loading="submitting" type="primary" @click="handleSubmit">
           Add Comment
-        </a-button>
+        </t-button>
       </a-form-item>
     </template>
   </a-comment>

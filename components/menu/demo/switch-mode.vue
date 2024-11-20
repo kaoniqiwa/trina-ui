@@ -43,8 +43,8 @@ import {
   AppstoreOutlined,
   SettingOutlined,
 } from '@ant-design/icons-vue';
-import type { MenuMode, MenuTheme } from 'ant-design-vue';
-import { ItemType } from 'ant-design-vue';
+import type { MenuMode, MenuTheme } from '@kaoniqiwa/trina-ui';
+import { ItemType } from '@kaoniqiwa/trina-ui';
 
 const state = reactive({
   mode: 'inline' as MenuMode,

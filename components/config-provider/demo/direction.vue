@@ -71,36 +71,36 @@ Components which support rtl direction are listed here, you can toggle the direc
         <a-col :span="12">
           <a-divider orientation="left">Button example</a-divider>
           <div class="button-demo">
-            <a-button type="primary">
+            <t-button type="primary">
               <template #icon><DownloadOutlined /></template>
-            </a-button>
-            <a-button type="primary" shape="circle">
+            </t-button>
+            <t-button type="primary" shape="circle">
               <template #icon><DownloadOutlined /></template>
-            </a-button>
-            <a-button type="primary" shape="round">
+            </t-button>
+            <t-button type="primary" shape="round">
               <template #icon><DownloadOutlined /></template>
-            </a-button>
-            <a-button type="primary" shape="round">
-              <template #icon><DownloadOutlined /></template>
-              Download
-            </a-button>
-            <a-button type="primary">
+            </t-button>
+            <t-button type="primary" shape="round">
               <template #icon><DownloadOutlined /></template>
               Download
-            </a-button>
+            </t-button>
+            <t-button type="primary">
+              <template #icon><DownloadOutlined /></template>
+              Download
+            </t-button>
             <br />
-            <a-button-group>
-              <a-button type="primary">
+            <t-button-group>
+              <t-button type="primary">
                 <LeftOutlined />
                 Backward
-              </a-button>
-              <a-button type="primary">
+              </t-button>
+              <t-button type="primary">
                 Forward
                 <RightOutlined />
-              </a-button>
-            </a-button-group>
-            <a-button type="primary" loading>Loading</a-button>
-            <a-button type="primary" size="small" loading>Loading</a-button>
+              </t-button>
+            </t-button-group>
+            <t-button type="primary" loading>Loading</t-button>
+            <t-button type="primary" size="small" loading>Loading</t-button>
           </div>
         </a-col>
         <a-col :span="12">
@@ -216,7 +216,7 @@ Components which support rtl direction are listed here, you can toggle the direc
               <a-col :span="24">
                 <a-divider orientation="left">Modal example</a-divider>
                 <div>
-                  <a-button type="primary" @click="showModal">Open Modal</a-button>
+                  <t-button type="primary" @click="showModal">Open Modal</t-button>
                   <a-modal v-model:open="state.modalVisible" title="پنچره ساده">
                     <p>نگاشته‌های خود را اینجا قراردهید</p>
                     <p>نگاشته‌های خود را اینجا قراردهید</p>
@@ -286,14 +286,14 @@ Components which support rtl direction are listed here, you can toggle the direc
                     <a-badge :count="state.badgeCount">
                       <a href="#" class="head-example" />
                     </a-badge>
-                    <a-button-group>
-                      <a-button @click="declineBadge">
+                    <t-button-group>
+                      <t-button @click="declineBadge">
                         <MinusOutlined />
-                      </a-button>
-                      <a-button @click="increaseBadge">
+                      </t-button>
+                      <t-button @click="increaseBadge">
                         <PlusOutlined />
-                      </a-button>
-                    </a-button-group>
+                      </t-button>
+                    </t-button-group>
                   </div>
                   <div style="margin-top: 10px">
                     <a-badge :dot="state.showBadge">
@@ -356,7 +356,7 @@ import {
   MinusOutlined,
   PlusOutlined,
 } from '@ant-design/icons-vue';
-import type { TreeProps, TreeSelectProps, CascaderProps } from 'ant-design-vue';
+import type { TreeProps, TreeSelectProps, CascaderProps } from '@kaoniqiwa/trina-ui';
 
 const state = reactive({
   currentStep: 0,

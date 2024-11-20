@@ -1,4 +1,4 @@
-import { Tag } from 'ant-design-vue';
+import { Tag } from '@kaoniqiwa/trina-ui';
 import type { ComponentDemo } from '../../interface';
 
 const Demo = () => <Tag color="warning">Warning</Tag>;

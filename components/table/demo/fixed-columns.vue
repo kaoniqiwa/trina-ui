@@ -34,7 +34,7 @@ To fix some columns and scroll inside other columns, and you must set `scroll.x`
   </a-table>
 </template>
 <script lang="ts" setup>
-import type { TableColumnsType } from 'ant-design-vue';
+import type { TableColumnsType } from '@kaoniqiwa/trina-ui';
 
 const columns: TableColumnsType = [
   { title: 'Full Name', width: 100, dataIndex: 'name', key: 'name', fixed: 'left' },

@@ -1,5 +1,5 @@
 import { defineComponent, ref } from 'vue';
-import { TreeSelect } from 'ant-design-vue';
+import { TreeSelect } from '@kaoniqiwa/trina-ui';
 import type { ComponentDemo } from '../../interface';
 
 const { TreeNode } = TreeSelect;

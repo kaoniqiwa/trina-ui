@@ -259,7 +259,7 @@ describe('Button', () => {
       },
     });
     expect(warnSpy).toHaveBeenCalledWith(
-      "Warning: [ant-design-vue: Button] `link` or `text` button can't be a `ghost` button.",
+      "Warning: [@kaoniqiwa/trina-ui: Button] `link` or `text` button can't be a `ghost` button.",
     );
     warnSpy.mockRestore();
   });
@@ -273,7 +273,7 @@ describe('Button', () => {
       },
     });
     expect(warnSpy).toHaveBeenCalledWith(
-      "Warning: [ant-design-vue: Button] `link` or `text` button can't be a `ghost` button.",
+      "Warning: [@kaoniqiwa/trina-ui: Button] `link` or `text` button can't be a `ghost` button.",
     );
     warnSpy.mockRestore();
   });

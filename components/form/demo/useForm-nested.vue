@@ -24,14 +24,14 @@ title:
       <a-input v-model:value="modelRef.sub.name" />
     </a-form-item>
     <a-form-item :wrapper-col="{ span: 14, offset: 4 }">
-      <a-button type="primary" @click.prevent="onSubmit">Create</a-button>
-      <a-button style="margin-left: 10px" @click="reset">Reset</a-button>
+      <t-button type="primary" @click.prevent="onSubmit">Create</t-button>
+      <t-button style="margin-left: 10px" @click="reset">Reset</t-button>
     </a-form-item>
   </a-form>
 </template>
 <script lang="ts" setup>
 import { reactive, toRaw } from 'vue';
-import { Form } from 'ant-design-vue';
+import { Form } from '@kaoniqiwa/trina-ui';
 
 const useForm = Form.useForm;
 

@@ -22,10 +22,10 @@ You can add extra actions to the right of Tabs.
     <a-tab-pane key="2" tab="Tab 2">Content of tab 2</a-tab-pane>
     <a-tab-pane key="3" tab="Tab 3">Content of tab 3</a-tab-pane>
     <template #leftExtra>
-      <a-button class="tabs-extra-demo-button">Left Extra Action</a-button>
+      <t-button class="tabs-extra-demo-button">Left Extra Action</t-button>
     </template>
     <template #rightExtra>
-      <a-button>Right Extra Action</a-button>
+      <t-button>Right Extra Action</t-button>
     </template>
   </a-tabs>
 </template>

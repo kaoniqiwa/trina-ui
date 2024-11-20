@@ -37,7 +37,7 @@ export default defineComponent({
     });
     onMounted(() => {
       if (container) return;
-      // https://github.com/vueComponent/ant-design-vue/issues/6937
+      // https://github.com/kaoniqiwa/trina-ui/issues/6937
       setContainer();
     });
 

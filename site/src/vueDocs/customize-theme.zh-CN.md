@@ -26,7 +26,7 @@ Trina Design Vue 设计规范和技术上支持灵活的样式定制，以满足
       },
     }"
   >
-    <a-button />
+    <t-button />
   </a-config-provider>
 </template>
 ```
@@ -46,7 +46,7 @@ Trina Design Vue 设计规范和技术上支持灵活的样式定制，以满足
       algorithm: theme.darkAlgorithm,
     }"
   >
-    <a-button />
+    <t-button />
   </a-config-provider>
 </template>
 
@@ -101,7 +101,7 @@ Trina Design Vue 设计规范和技术上支持灵活的样式定制，以满足
       },
     }"
   >
-    <a-button />
+    <t-button />
     <a-config-provider
       :theme="{
         token: {
@@ -109,7 +109,7 @@ Trina Design Vue 设计规范和技术上支持灵活的样式定制，以满足
         },
       }"
     >
-      <a-button />
+      <t-button />
     </a-config-provider>
   </a-config-provider>
 </template>
@@ -121,7 +121,7 @@ Trina Design Vue 设计规范和技术上支持灵活的样式定制，以满足
 
 ```html
 <template>
-  <a-button :style="{ backgroundColor: token.colorPrimary }">Button</a-button>
+  <t-button :style="{ backgroundColor: token.colorPrimary }">Button</t-button>
 </template>
 
 <script setup>

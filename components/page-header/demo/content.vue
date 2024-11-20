@@ -29,13 +29,13 @@ Show all props provided by PageHeader.
         <a-tag color="blue">Running</a-tag>
       </template>
       <template #extra>
-        <a-button key="3">Operation</a-button>
-        <a-button key="2">Operation</a-button>
-        <a-button key="1" type="primary">Primary</a-button>
+        <t-button key="3">Operation</t-button>
+        <t-button key="2">Operation</t-button>
+        <t-button key="1" type="primary">Primary</t-button>
         <a-dropdown key="more">
-          <a-button :style="{ border: 'none', padding: 0 }">
+          <t-button :style="{ border: 'none', padding: 0 }">
             <EllipsisOutlined :style="{ fontSize: '20px', verticalAlign: 'top' }" />
-          </a-button>
+          </t-button>
           <template #overlay>
             <a-menu>
               <a-menu-item>

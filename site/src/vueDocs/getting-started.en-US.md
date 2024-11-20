@@ -90,7 +90,7 @@ In this way, component sub-components, such as Button and ButtonGroup, need to b
 
 ```html
 <template>
-  <a-button>Add</a-button>
+  <t-button>Add</t-button>
 </template>
 <script>
   import { Button } from 'trina-design-vue';

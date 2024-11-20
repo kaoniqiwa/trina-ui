@@ -82,7 +82,7 @@ import Logo from './Logo.vue';
 import Menu from './Menu.vue';
 import { UnorderedListOutlined } from '@ant-design/icons-vue';
 import SearchBox from './SearchBox.vue';
-import { version } from 'ant-design-vue';
+import { version } from '@kaoniqiwa/trina-ui';
 export default defineComponent({
   components: {
     Logo,
@@ -153,7 +153,7 @@ export default defineComponent({
     watch(globalConfig?.blocked, val => {
       visibleAdblockBanner.value = val;
     });
-    const alertKey = 'ant-design-vue-4-alert';
+    const alertKey = '@kaoniqiwa/trina-ui-4-alert';
     const visibleAlertBanner = ref(!localStorage.getItem(alertKey));
     watch(visibleAlertBanner, () => {
       if (!visibleAlertBanner.value) {

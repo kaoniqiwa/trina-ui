@@ -23,11 +23,11 @@ Extra actions should be placed at corner of drawer in Ant Design, you can using 
     <a-radio value="bottom">bottom</a-radio>
     <a-radio value="left">left</a-radio>
   </a-radio-group>
-  <a-button type="primary" @click="showDrawer">Open</a-button>
+  <t-button type="primary" @click="showDrawer">Open</t-button>
   <a-drawer :width="500" title="Basic Drawer" :placement="placement" :open="open" @close="onClose">
     <template #extra>
-      <a-button style="margin-right: 8px" @click="onClose">Cancel</a-button>
-      <a-button type="primary" @click="onClose">Submit</a-button>
+      <t-button style="margin-right: 8px" @click="onClose">Cancel</t-button>
+      <t-button type="primary" @click="onClose">Submit</t-button>
     </template>
     <p>Some contents...</p>
     <p>Some contents...</p>
@@ -36,7 +36,7 @@ Extra actions should be placed at corner of drawer in Ant Design, you can using 
 </template>
 <script lang="ts" setup>
 import { ref } from 'vue';
-import type { DrawerProps } from 'ant-design-vue';
+import type { DrawerProps } from '@kaoniqiwa/trina-ui';
 const placement = ref<DrawerProps['placement']>('left');
 const open = ref<boolean>(false);
 

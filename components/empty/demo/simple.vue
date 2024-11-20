@@ -19,6 +19,6 @@ You can choose another style of `image` by setting image to `Empty.PRESENTED_IMA
   <a-empty :image="simpleImage" />
 </template>
 <script lang="ts" setup>
-import { Empty } from 'ant-design-vue';
+import { Empty } from '@kaoniqiwa/trina-ui';
 const simpleImage = Empty.PRESENTED_IMAGE_SIMPLE;
 </script>

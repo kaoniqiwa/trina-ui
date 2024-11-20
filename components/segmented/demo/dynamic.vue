@@ -17,7 +17,7 @@ Load dynamically.
   <a-segmented v-model:value="value" :options="data"></a-segmented>
   <br />
   <br />
-  <a-button type="primary" :disabled="isDisabled" @click="loadMore">Load More</a-button>
+  <t-button type="primary" :disabled="isDisabled" @click="loadMore">Load More</t-button>
 </template>
 
 <script lang="ts" setup>

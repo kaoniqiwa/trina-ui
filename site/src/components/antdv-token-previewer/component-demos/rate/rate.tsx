@@ -1,4 +1,4 @@
-import { Rate } from 'ant-design-vue';
+import { Rate } from '@kaoniqiwa/trina-ui';
 
 import type { ComponentDemo } from '../../interface';
 

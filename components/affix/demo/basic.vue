@@ -18,11 +18,11 @@ The simplest usage.
 
 <template>
   <a-affix :offset-top="top">
-    <a-button type="primary" @click="top += 10">Affix top</a-button>
+    <t-button type="primary" @click="top += 10">Affix top</t-button>
   </a-affix>
   <br />
   <a-affix :offset-bottom="bottom">
-    <a-button type="primary" @click="bottom += 10">Affix bottom</a-button>
+    <t-button type="primary" @click="bottom += 10">Affix bottom</t-button>
   </a-affix>
 </template>
 

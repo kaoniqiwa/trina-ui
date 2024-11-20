@@ -4,10 +4,10 @@ import {
   RightOutlined,
   ShrinkOutlined,
 } from '@ant-design/icons-vue';
-import { Button, Collapse, Empty, Tooltip } from 'ant-design-vue';
+import { Button, Collapse, Empty, Tooltip } from '@kaoniqiwa/trina-ui';
 import type { MutableTheme, AliasToken, SelectedToken } from '../interface';
-import classNames from 'ant-design-vue/es/_util/classNames';
-import useMergedState from 'ant-design-vue/es/_util/hooks/useMergedState';
+import classNames from '@kaoniqiwa/trina-ui/es/_util/classNames';
+import useMergedState from '@kaoniqiwa/trina-ui/es/_util/hooks/useMergedState';
 import { defineComponent, toRefs, computed } from 'vue';
 import type { PropType, Ref } from 'vue';
 import { Pick } from '../icons';

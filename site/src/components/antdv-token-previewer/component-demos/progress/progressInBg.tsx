@@ -1,5 +1,5 @@
 import { defineComponent } from 'vue';
-import { Progress, theme } from 'ant-design-vue';
+import { Progress, theme } from '@kaoniqiwa/trina-ui';
 
 import type { ComponentDemo } from '../../interface';
 

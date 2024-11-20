@@ -17,12 +17,12 @@ title:
 </docs>
 
 <template>
-  <a-button @click="showConfirm">Confirm</a-button>
+  <t-button @click="showConfirm">Confirm</t-button>
 </template>
 <script lang="ts" setup>
 import { ExclamationCircleOutlined } from '@ant-design/icons-vue';
 import { createVNode } from 'vue';
-import { Modal } from 'ant-design-vue';
+import { Modal } from '@kaoniqiwa/trina-ui';
 const showConfirm = () => {
   for (let i = 0; i < 3; i += 1) {
     setTimeout(() => {

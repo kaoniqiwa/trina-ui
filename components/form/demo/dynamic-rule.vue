@@ -38,13 +38,13 @@ Perform different check rules according to different situations.
     </a-form-item>
 
     <a-form-item v-bind="formTailLayout">
-      <a-button type="primary" @click="onCheck">Check</a-button>
+      <t-button type="primary" @click="onCheck">Check</t-button>
     </a-form-item>
   </a-form>
 </template>
 <script lang="ts" setup>
 import { reactive, ref, watch } from 'vue';
-import type { FormInstance } from 'ant-design-vue';
+import type { FormInstance } from '@kaoniqiwa/trina-ui';
 
 interface FormState {
   username: string;

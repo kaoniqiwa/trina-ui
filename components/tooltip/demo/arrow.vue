@@ -24,19 +24,19 @@ Support show, hide or keep arrow in the center.
         <template #title>
           <span>prompt text</span>
         </template>
-        <a-button>TL</a-button>
+        <t-button>TL</t-button>
       </a-tooltip>
       <a-tooltip placement="top" :arrow="mergedArrow">
         <template #title>
           <span>prompt text</span>
         </template>
-        <a-button>Top</a-button>
+        <t-button>Top</t-button>
       </a-tooltip>
       <a-tooltip placement="topRight" :arrow="mergedArrow">
         <template #title>
           <span>prompt text</span>
         </template>
-        <a-button>TR</a-button>
+        <t-button>TR</t-button>
       </a-tooltip>
     </div>
     <div :style="{ width: `${buttonWidth}px`, float: 'left' }">
@@ -44,19 +44,19 @@ Support show, hide or keep arrow in the center.
         <template #title>
           <span>prompt text</span>
         </template>
-        <a-button>LT</a-button>
+        <t-button>LT</t-button>
       </a-tooltip>
       <a-tooltip placement="left" :arrow="mergedArrow">
         <template #title>
           <span>prompt text</span>
         </template>
-        <a-button>Left</a-button>
+        <t-button>Left</t-button>
       </a-tooltip>
       <a-tooltip placement="leftBottom" :arrow="mergedArrow">
         <template #title>
           <span>prompt text</span>
         </template>
-        <a-button>LB</a-button>
+        <t-button>LB</t-button>
       </a-tooltip>
     </div>
     <div :style="{ width: `${buttonWidth}px`, marginLeft: `${buttonWidth * 4 + 24}px` }">
@@ -64,19 +64,19 @@ Support show, hide or keep arrow in the center.
         <template #title>
           <span>prompt text</span>
         </template>
-        <a-button>RT</a-button>
+        <t-button>RT</t-button>
       </a-tooltip>
       <a-tooltip placement="right" :arrow="mergedArrow">
         <template #title>
           <span>prompt text</span>
         </template>
-        <a-button>Right</a-button>
+        <t-button>Right</t-button>
       </a-tooltip>
       <a-tooltip placement="rightBottom" :arrow="mergedArrow">
         <template #title>
           <span>prompt text</span>
         </template>
-        <a-button>RB</a-button>
+        <t-button>RB</t-button>
       </a-tooltip>
     </div>
     <div :style="{ marginLeft: `${buttonWidth}px`, clear: 'both', whiteSpace: 'nowrap' }">
@@ -84,19 +84,19 @@ Support show, hide or keep arrow in the center.
         <template #title>
           <span>prompt text</span>
         </template>
-        <a-button>BL</a-button>
+        <t-button>BL</t-button>
       </a-tooltip>
       <a-tooltip placement="bottom" :arrow="mergedArrow">
         <template #title>
           <span>prompt text</span>
         </template>
-        <a-button>Bottom</a-button>
+        <t-button>Bottom</t-button>
       </a-tooltip>
       <a-tooltip placement="bottomRight" :arrow="mergedArrow">
         <template #title>
           <span>prompt text</span>
         </template>
-        <a-button>BR</a-button>
+        <t-button>BR</t-button>
       </a-tooltip>
     </div>
   </div>

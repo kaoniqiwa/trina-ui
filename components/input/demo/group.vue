@@ -111,14 +111,14 @@ Note: You don't need `Col` to control the width in the `compact` mode.
     </a-input-group>
     <a-input-group compact>
       <a-input v-model:value="value19" style="width: calc(100% - 200px)" />
-      <a-button type="primary">Submit</a-button>
+      <t-button type="primary">Submit</t-button>
     </a-input-group>
     <a-input-group compact>
       <a-input v-model:value="value20" style="width: calc(100% - 200px)" />
       <a-tooltip title="copy git url">
-        <a-button>
+        <t-button>
           <template #icon><CopyOutlined /></template>
-        </a-button>
+        </t-button>
       </a-tooltip>
     </a-input-group>
   </a-space>

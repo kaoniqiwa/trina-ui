@@ -1,5 +1,5 @@
 import { defineComponent } from 'vue';
-import { Badge, Avatar, Space, theme } from 'ant-design-vue';
+import { Badge, Avatar, Space, theme } from '@kaoniqiwa/trina-ui';
 import { ClockCircleFilled } from '@ant-design/icons-vue';
 import type { ComponentDemo } from '../../interface';
 

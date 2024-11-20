@@ -28,7 +28,7 @@ Cascade selection box of different sizes.
 </template>
 <script lang="ts" setup>
 import { ref } from 'vue';
-import type { CascaderProps } from 'ant-design-vue';
+import type { CascaderProps } from '@kaoniqiwa/trina-ui';
 const options: CascaderProps['options'] = [
   {
     value: 'zhejiang',

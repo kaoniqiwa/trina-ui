@@ -1,4 +1,4 @@
-import { Image } from 'ant-design-vue';
+import { Image } from '@kaoniqiwa/trina-ui';
 
 import type { ComponentDemo } from '../../interface';
 

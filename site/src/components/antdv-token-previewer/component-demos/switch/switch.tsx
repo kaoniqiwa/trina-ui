@@ -1,5 +1,5 @@
 import { defineComponent, ref } from 'vue';
-import { Switch } from 'ant-design-vue';
+import { Switch } from '@kaoniqiwa/trina-ui';
 
 import type { ComponentDemo } from '../../interface';
 

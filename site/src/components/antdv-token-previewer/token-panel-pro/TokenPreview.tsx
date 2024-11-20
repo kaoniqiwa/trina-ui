@@ -1,4 +1,4 @@
-import type { ThemeConfig } from 'ant-design-vue/es/config-provider/context';
+import type { ThemeConfig } from '@kaoniqiwa/trina-ui/es/config-provider/context';
 import type { PropType } from 'vue';
 import { toRefs, defineComponent } from 'vue';
 

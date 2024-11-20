@@ -40,9 +40,9 @@ Components which need localization support are listed here, you can toggle the l
         <a-range-picker style="width: 200px" />
       </a-space>
       <a-space wrap>
-        <a-button type="primary" @click="visible = true">Show Modal</a-button>
-        <a-button @click="info">Show info</a-button>
-        <a-button @click="confirm">Show confirm</a-button>
+        <t-button type="primary" @click="visible = true">Show Modal</t-button>
+        <t-button @click="info">Show info</t-button>
+        <t-button @click="confirm">Show confirm</t-button>
         <a-popconfirm title="Question?">
           <a href="#">Click to confirm</a>
         </a-popconfirm>
@@ -71,7 +71,7 @@ Components which need localization support are listed here, you can toggle the l
           <a-input-number v-model:value="formModel.age" :width="200" />
         </a-form-item>
         <a-form-item :wrapper-col="{ offset: 2, span: 6 }">
-          <a-button type="primary" html-type="submit">submit</a-button>
+          <t-button type="primary" html-type="submit">submit</t-button>
         </a-form-item>
       </a-form>
       <a-table :data-source="[]" :columns="columns" />
@@ -91,15 +91,15 @@ Components which need localization support are listed here, you can toggle the l
       </a-space>
       <a-upload list-type="picture-card" :file-list="fileList" />
       <a-divider orientation="left">Tour</a-divider>
-      <a-button type="primary" @click="() => (tourOpen = true)">Begin Tour</a-button>
+      <t-button type="primary" @click="() => (tourOpen = true)">Begin Tour</t-button>
       <a-space>
-        <a-button ref="ref1">upload</a-button>
-        <a-button ref="ref2" type="primary">save</a-button>
-        <a-button ref="ref3">
+        <t-button ref="ref1">upload</t-button>
+        <t-button ref="ref2" type="primary">save</t-button>
+        <t-button ref="ref3">
           <template #icon>
             <ellipsis-outlined />
           </template>
-        </a-button>
+        </t-button>
       </a-space>
       <a-tour
         v-model:current="current"
@@ -112,11 +112,11 @@ Components which need localization support are listed here, you can toggle the l
 </template>
 <script lang="ts" setup>
 import { ref, watch } from 'vue';
-import { Modal, theme } from 'ant-design-vue';
-import type { TourProps, UploadFile } from 'ant-design-vue';
+import { Modal, theme } from '@kaoniqiwa/trina-ui';
+import type { TourProps, UploadFile } from '@kaoniqiwa/trina-ui';
 import { EllipsisOutlined } from '@ant-design/icons-vue';
-import enUS from 'ant-design-vue/es/locale/en_US';
-import zhCN from 'ant-design-vue/es/locale/zh_CN';
+import enUS from '@kaoniqiwa/trina-ui/es/locale/en_US';
+import zhCN from '@kaoniqiwa/trina-ui/es/locale/zh_CN';
 import dayjs from 'dayjs';
 import 'dayjs/locale/zh-cn';
 

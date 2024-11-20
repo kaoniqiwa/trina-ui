@@ -45,7 +45,7 @@ You can manually specify the position of the popup via `placement`.
 </template>
 <script lang="ts" setup>
 import { ref } from 'vue';
-import type { TreeSelectProps } from 'ant-design-vue';
+import type { TreeSelectProps } from '@kaoniqiwa/trina-ui';
 const placement = ref('topLeft' as const);
 const value = ref<string>();
 const treeData = ref<TreeSelectProps['treeData']>([

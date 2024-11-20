@@ -1,8 +1,8 @@
 import type { PropType } from 'vue';
 import { defineComponent, toRefs, ref, watchEffect, computed } from 'vue';
 import { CheckOutlined } from '@ant-design/icons-vue';
-import { Dropdown, Input, Menu, Switch, theme as antdTheme } from 'ant-design-vue';
-import classNames from 'ant-design-vue/es/_util/classNames';
+import { Dropdown, Input, Menu, Switch, theme as antdTheme } from '@kaoniqiwa/trina-ui';
+import classNames from '@kaoniqiwa/trina-ui/es/_util/classNames';
 import { SearchDropdown } from '../icons';
 import type { AliasToken, MutableTheme, TokenValue } from '../interface';
 import type { TokenType } from '../utils/classifyToken';

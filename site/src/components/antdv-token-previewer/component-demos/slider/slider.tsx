@@ -1,5 +1,5 @@
 import { defineComponent } from 'vue';
-import { Slider } from 'ant-design-vue';
+import { Slider } from '@kaoniqiwa/trina-ui';
 import type { ComponentDemo } from '../../interface';
 
 const Demo = defineComponent({

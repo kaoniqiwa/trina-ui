@@ -1,7 +1,7 @@
 import { defineComponent } from 'vue';
 import type { CSSProperties } from 'vue';
 
-import { Carousel } from 'ant-design-vue';
+import { Carousel } from '@kaoniqiwa/trina-ui';
 
 import type { ComponentDemo } from '../../interface';
 

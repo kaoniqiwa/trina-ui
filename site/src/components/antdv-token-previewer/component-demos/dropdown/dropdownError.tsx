@@ -1,6 +1,6 @@
 import { defineComponent } from 'vue';
 import { DownOutlined } from '@ant-design/icons-vue';
-import { Dropdown, Typography } from 'ant-design-vue';
+import { Dropdown, Typography } from '@kaoniqiwa/trina-ui';
 
 import type { ComponentDemo } from '../../interface';
 

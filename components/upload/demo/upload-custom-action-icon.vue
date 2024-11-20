@@ -22,10 +22,10 @@ Use slot for custom action icons of files.
     :show-upload-list="{ showDownloadIcon: true, showRemoveIcon: true }"
     @change="handleChange"
   >
-    <a-button>
+    <t-button>
       <upload-outlined></upload-outlined>
       Upload
-    </a-button>
+    </t-button>
     <template #downloadIcon>download</template>
     <template #removeIcon><StarOutlined @click="handleClick"></StarOutlined></template>
   </a-upload>
@@ -33,7 +33,7 @@ Use slot for custom action icons of files.
 <script lang="ts" setup>
 import { ref } from 'vue';
 import { UploadOutlined, StarOutlined } from '@ant-design/icons-vue';
-import type { UploadChangeParam, UploadProps } from 'ant-design-vue';
+import type { UploadChangeParam, UploadProps } from '@kaoniqiwa/trina-ui';
 
 const fileList = ref<UploadProps['fileList']>([
   {

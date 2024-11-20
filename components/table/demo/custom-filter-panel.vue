@@ -35,7 +35,7 @@ Implement a customized column search example via `customFilterDropdown`.
           @change="e => setSelectedKeys(e.target.value ? [e.target.value] : [])"
           @pressEnter="handleSearch(selectedKeys, confirm, column.dataIndex)"
         />
-        <a-button
+        <t-button
           type="primary"
           size="small"
           style="width: 90px; margin-right: 8px"
@@ -43,10 +43,10 @@ Implement a customized column search example via `customFilterDropdown`.
         >
           <template #icon><SearchOutlined /></template>
           Search
-        </a-button>
-        <a-button size="small" style="width: 90px" @click="handleReset(clearFilters)">
+        </t-button>
+        <t-button size="small" style="width: 90px" @click="handleReset(clearFilters)">
           Reset
-        </a-button>
+        </t-button>
       </div>
     </template>
     <template #customFilterIcon="{ filtered }">

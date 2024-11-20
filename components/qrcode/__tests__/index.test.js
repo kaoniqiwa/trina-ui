@@ -84,7 +84,7 @@ describe('QRCode test', () => {
       },
     });
     expect(errSpy).toHaveBeenCalledWith(
-      'Warning: [ant-design-vue: QRCode] ErrorLevel `L` is not recommended to be used with `icon`, for scanning result would be affected by low level.',
+      'Warning: [@kaoniqiwa/trina-ui: QRCode] ErrorLevel `L` is not recommended to be used with `icon`, for scanning result would be affected by low level.',
     );
     errSpy.mockRestore();
   });

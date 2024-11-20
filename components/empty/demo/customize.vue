@@ -29,6 +29,6 @@ Customize image, description and extra content.
         <a href="#api">Description</a>
       </span>
     </template>
-    <a-button type="primary">Create Now</a-button>
+    <t-button type="primary">Create Now</t-button>
   </a-empty>
 </template>

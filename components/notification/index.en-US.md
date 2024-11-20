@@ -90,7 +90,7 @@ When you need context info (like ConfigProvider context), you can use `notificat
   <!-- <component :is='contextHolder'/> -->
 </template>
 <script setup>
-  import { notification } from 'ant-design-vue';
+  import { notification } from '@kaoniqiwa/trina-ui';
   const [notificationApi, contextHolder] = notification.useNotification();
   notificationApi.open({
     // ...

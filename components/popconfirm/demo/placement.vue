@@ -24,21 +24,21 @@ There are 12 `placement` options available. Use `arrowPointAtCenter` if you want
           <p>{{ text }}</p>
           <p>{{ text }}</p>
         </template>
-        <a-button>TL</a-button>
+        <t-button>TL</t-button>
       </a-popconfirm>
       <a-popconfirm placement="top" ok-text="Yes" cancel-text="No" @confirm="confirm">
         <template #title>
           <p>{{ text }}</p>
           <p>{{ text }}</p>
         </template>
-        <a-button>Top</a-button>
+        <t-button>Top</t-button>
       </a-popconfirm>
       <a-popconfirm placement="topRight" ok-text="Yes" cancel-text="No" @confirm="confirm">
         <template #title>
           <p>{{ text }}</p>
           <p>{{ text }}</p>
         </template>
-        <a-button>TR</a-button>
+        <t-button>TR</t-button>
       </a-popconfirm>
     </div>
     <div :style="{ width: `${buttonWidth}px`, float: 'left' }">
@@ -47,21 +47,21 @@ There are 12 `placement` options available. Use `arrowPointAtCenter` if you want
           <p>{{ text }}</p>
           <p>{{ text }}</p>
         </template>
-        <a-button>LT</a-button>
+        <t-button>LT</t-button>
       </a-popconfirm>
       <a-popconfirm placement="left" ok-text="Yes" cancel-text="No" @confirm="confirm">
         <template #title>
           <p>{{ text }}</p>
           <p>{{ text }}</p>
         </template>
-        <a-button>Left</a-button>
+        <t-button>Left</t-button>
       </a-popconfirm>
       <a-popconfirm placement="leftBottom" ok-text="Yes" cancel-text="No" @confirm="confirm">
         <template #title>
           <p>{{ text }}</p>
           <p>{{ text }}</p>
         </template>
-        <a-button>LB</a-button>
+        <t-button>LB</t-button>
       </a-popconfirm>
     </div>
     <div :style="{ width: `${buttonWidth}px`, marginLeft: `${buttonWidth * 4 + 24}px` }">
@@ -70,21 +70,21 @@ There are 12 `placement` options available. Use `arrowPointAtCenter` if you want
           <p>{{ text }}</p>
           <p>{{ text }}</p>
         </template>
-        <a-button>RT</a-button>
+        <t-button>RT</t-button>
       </a-popconfirm>
       <a-popconfirm placement="right" ok-text="Yes" cancel-text="No" @confirm="confirm">
         <template #title>
           <p>{{ text }}</p>
           <p>{{ text }}</p>
         </template>
-        <a-button>Right</a-button>
+        <t-button>Right</t-button>
       </a-popconfirm>
       <a-popconfirm placement="rightBottom" ok-text="Yes" cancel-text="No" @confirm="confirm">
         <template #title>
           <p>{{ text }}</p>
           <p>{{ text }}</p>
         </template>
-        <a-button>RB</a-button>
+        <t-button>RB</t-button>
       </a-popconfirm>
     </div>
     <div :style="{ marginLeft: `${buttonWidth}px`, clear: 'both', whiteSpace: 'nowrap' }">
@@ -93,27 +93,27 @@ There are 12 `placement` options available. Use `arrowPointAtCenter` if you want
           <p>{{ text }}</p>
           <p>{{ text }}</p>
         </template>
-        <a-button>BL</a-button>
+        <t-button>BL</t-button>
       </a-popconfirm>
       <a-popconfirm placement="bottom" ok-text="Yes" cancel-text="No" @confirm="confirm">
         <template #title>
           <p>{{ text }}</p>
           <p>{{ text }}</p>
         </template>
-        <a-button>Bottom</a-button>
+        <t-button>Bottom</t-button>
       </a-popconfirm>
       <a-popconfirm placement="bottomRight" ok-text="Yes" cancel-text="No" @confirm="confirm">
         <template #title>
           <p>{{ text }}</p>
           <p>{{ text }}</p>
         </template>
-        <a-button>BR</a-button>
+        <t-button>BR</t-button>
       </a-popconfirm>
     </div>
   </div>
 </template>
 <script lang="ts" setup>
-import { message } from 'ant-design-vue';
+import { message } from '@kaoniqiwa/trina-ui';
 const buttonWidth = 70;
 
 const text = 'Are you sure to delete this task?';

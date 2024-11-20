@@ -19,11 +19,11 @@ Asynchronously close a popconfirm when the OK button is pressed. For example, yo
 
 <template>
   <a-popconfirm title="Title" @confirm="confirm" @cancel="cancel">
-    <a-button type="primary">Open Popconfirm with Promise</a-button>
+    <t-button type="primary">Open Popconfirm with Promise</t-button>
   </a-popconfirm>
 </template>
 <script lang="ts" setup>
-import { message } from 'ant-design-vue';
+import { message } from '@kaoniqiwa/trina-ui';
 const confirm = (e: MouseEvent) => {
   console.log(e);
   return new Promise(resolve => {

@@ -18,10 +18,10 @@ There are `primary` button, `default` button, `dashed` button, `text` button and
 
 <template>
   <a-space wrap>
-    <a-button type="primary">Primary Button</a-button>
-    <a-button>Default Button</a-button>
-    <a-button type="dashed">Dashed Button</a-button>
-    <a-button type="text">Text Button</a-button>
-    <a-button type="link">Link Button</a-button>
+    <t-button type="primary">Primary Button</t-button>
+    <t-button>Default Button</t-button>
+    <t-button type="dashed">Dashed Button</t-button>
+    <t-button type="text">Text Button</t-button>
+    <t-button type="link">Link Button</t-button>
   </a-space>
 </template>

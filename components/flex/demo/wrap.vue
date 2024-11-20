@@ -18,6 +18,6 @@ Auto wrap line.
 
 <template>
   <a-flex wrap="wrap" gap="small">
-    <a-button v-for="item in new Array(24)" :key="item" type="primary">Button</a-button>
+    <t-button v-for="item in new Array(24)" :key="item" type="primary">Button</t-button>
   </a-flex>
 </template>

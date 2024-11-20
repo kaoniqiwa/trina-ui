@@ -1,5 +1,5 @@
 import { defineComponent, ref } from 'vue';
-import { Transfer } from 'ant-design-vue';
+import { Transfer } from '@kaoniqiwa/trina-ui';
 
 import mockData from './data';
 import type { ComponentDemo } from '../../interface';

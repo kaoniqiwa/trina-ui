@@ -93,16 +93,16 @@ A button is on the left, and a related functional menu is on the right. You can 
           </a-menu-item>
         </a-menu>
       </template>
-      <a-button>
+      <t-button>
         Button
         <DownOutlined />
-      </a-button>
+      </t-button>
     </a-dropdown>
   </div>
 </template>
 <script lang="ts" setup>
 import { UserOutlined, DownOutlined } from '@ant-design/icons-vue';
-import type { MenuProps } from 'ant-design-vue';
+import type { MenuProps } from '@kaoniqiwa/trina-ui';
 const handleButtonClick = (e: Event) => {
   console.log('click left button', e);
 };

@@ -1,4 +1,4 @@
-import { Button, Drawer } from 'ant-design-vue';
+import { Button, Drawer } from '@kaoniqiwa/trina-ui';
 import { defineComponent, ref } from 'vue';
 import type { ComponentDemo } from '../../interface';
 

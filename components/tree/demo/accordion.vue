@@ -30,7 +30,7 @@ Nodes of the same level can only be expanded one
 </template>
 <script lang="ts" setup>
 import { ref, watch } from 'vue';
-import type { TreeProps } from 'ant-design-vue';
+import type { TreeProps } from '@kaoniqiwa/trina-ui';
 import difference from 'lodash-es/difference';
 
 const treeData: TreeProps['treeData'] = [

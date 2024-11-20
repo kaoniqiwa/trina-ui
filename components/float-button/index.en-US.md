@@ -16,7 +16,7 @@ FloatButton. Available since `4.0.0`.
 
 ## API
 
-> This component is available since `ant-design-vue@4.0.0`.
+> This component is available since `@kaoniqiwa/trina-ui@4.0.0`.
 
 ### common API
 

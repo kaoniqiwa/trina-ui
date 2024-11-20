@@ -43,7 +43,7 @@ Example of creating a search box by grouping a standard input with a search butt
       @search="onSearch"
     >
       <template #enterButton>
-        <a-button>Custom</a-button>
+        <t-button>Custom</t-button>
       </template>
     </a-input-search>
   </a-space>

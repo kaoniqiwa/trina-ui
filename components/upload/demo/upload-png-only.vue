@@ -23,17 +23,17 @@ title:
     :before-upload="beforeUpload"
     @change="handleChange"
   >
-    <a-button>
+    <t-button>
       <upload-outlined></upload-outlined>
       Upload png only
-    </a-button>
+    </t-button>
   </a-upload>
 </template>
 <script lang="ts" setup>
 import { ref } from 'vue';
 import { UploadOutlined } from '@ant-design/icons-vue';
-import type { UploadChangeParam, UploadProps } from 'ant-design-vue';
-import { message, Upload } from 'ant-design-vue';
+import type { UploadChangeParam, UploadProps } from '@kaoniqiwa/trina-ui';
+import { message, Upload } from '@kaoniqiwa/trina-ui';
 const fileList = ref<UploadProps['fileList']>([
   {
     uid: '1',

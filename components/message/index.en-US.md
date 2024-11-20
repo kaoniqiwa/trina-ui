@@ -101,7 +101,7 @@ When you need context info (like ConfigProvider context), you can use `message.u
   <!-- <component :is='contextHolder'/> -->
 </template>
 <script setup>
-  import { message } from 'ant-design-vue';
+  import { message } from '@kaoniqiwa/trina-ui';
   const [messageApi, contextHolder] = message.useMessage();
   messageApi.open({
     // ...

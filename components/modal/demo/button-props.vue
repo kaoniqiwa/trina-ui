@@ -18,7 +18,7 @@ Passing `okButtonProps` and `cancelButtonProps` can customize the ok button and 
 
 <template>
   <div>
-    <a-button type="primary" @click="showModal">Open Modal with customized button props</a-button>
+    <t-button type="primary" @click="showModal">Open Modal with customized button props</t-button>
     <a-modal
       v-model:open="open"
       title="Basic Modal"

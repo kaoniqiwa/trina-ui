@@ -23,17 +23,17 @@ Classic mode. File selection dialog pops up when upload button is clicked.
     :headers="headers"
     @change="handleChange"
   >
-    <a-button>
+    <t-button>
       <upload-outlined></upload-outlined>
       Click to Upload
-    </a-button>
+    </t-button>
   </a-upload>
 </template>
 <script lang="ts" setup>
 import { ref } from 'vue';
-import { message } from 'ant-design-vue';
+import { message } from '@kaoniqiwa/trina-ui';
 import { UploadOutlined } from '@ant-design/icons-vue';
-import type { UploadChangeParam } from 'ant-design-vue';
+import type { UploadChangeParam } from '@kaoniqiwa/trina-ui';
 
 const handleChange = (info: UploadChangeParam) => {
   if (info.file.status !== 'uploading') {

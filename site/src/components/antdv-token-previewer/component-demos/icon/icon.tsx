@@ -1,5 +1,5 @@
 import { defineComponent } from 'vue';
-import { Space } from 'ant-design-vue';
+import { Space } from '@kaoniqiwa/trina-ui';
 import {
   HomeOutlined,
   SettingFilled,

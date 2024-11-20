@@ -30,16 +30,16 @@ You can gain full control over filelist by configuring `fileList`. You can accom
     :file-list="fileList"
     @change="handleChange"
   >
-    <a-button>
+    <t-button>
       <upload-outlined></upload-outlined>
       Upload
-    </a-button>
+    </t-button>
   </a-upload>
 </template>
 <script lang="ts" setup>
 import { UploadOutlined } from '@ant-design/icons-vue';
 import { ref } from 'vue';
-import type { UploadChangeParam, UploadProps } from 'ant-design-vue';
+import type { UploadChangeParam, UploadProps } from '@kaoniqiwa/trina-ui';
 const fileList = ref<UploadProps['fileList']>([
   {
     uid: '-1',

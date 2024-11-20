@@ -17,11 +17,11 @@ To customize the style or font of the close button.
 </docs>
 
 <template>
-  <a-button type="primary" @click="openNotification">Open the notification box</a-button>
+  <t-button type="primary" @click="openNotification">Open the notification box</t-button>
 </template>
 
 <script lang="ts" setup>
-import { notification, Button } from 'ant-design-vue';
+import { notification, Button } from '@kaoniqiwa/trina-ui';
 import { h } from 'vue';
 
 const close = () => {

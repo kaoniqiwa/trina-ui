@@ -49,13 +49,13 @@ Bind nested fields by array name.
       <MinusCircleOutlined @click="removeUser(user)" />
     </a-space>
     <a-form-item>
-      <a-button type="dashed" block @click="addUser">
+      <t-button type="dashed" block @click="addUser">
         <PlusOutlined />
         Add user
-      </a-button>
+      </t-button>
     </a-form-item>
     <a-form-item>
-      <a-button type="primary" html-type="submit">Submit</a-button>
+      <t-button type="primary" html-type="submit">Submit</t-button>
     </a-form-item>
   </a-form>
 </template>
@@ -63,7 +63,7 @@ Bind nested fields by array name.
 <script lang="ts" setup>
 import { reactive, ref } from 'vue';
 import { MinusCircleOutlined, PlusOutlined } from '@ant-design/icons-vue';
-import type { FormInstance } from 'ant-design-vue';
+import type { FormInstance } from '@kaoniqiwa/trina-ui';
 
 interface User {
   first: string;

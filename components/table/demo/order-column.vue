@@ -27,7 +27,7 @@ You can control the order of the expand and select columns by using `Table.EXPAN
   </a-table>
 </template>
 <script lang="ts" setup>
-import { Table } from 'ant-design-vue';
+import { Table } from '@kaoniqiwa/trina-ui';
 const columns = [
   { title: 'Name', dataIndex: 'name', key: 'name' },
   Table.EXPAND_COLUMN,

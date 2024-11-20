@@ -19,7 +19,7 @@ tag: New
 
 ## API
 
-> This component is available since `ant-design-vue@4.0.7`. The default behavior of Flex in horizontal mode is to align upward, In vertical mode, aligns the stretch, You can adjust this via properties.
+> This component is available since `@kaoniqiwa/trina-ui@4.0.7`. The default behavior of Flex in horizontal mode is to align upward, In vertical mode, aligns the stretch, You can adjust this via properties.
 
 | Property | Description | type | Default | Version |
 | --- | --- | --- | --- | --- |

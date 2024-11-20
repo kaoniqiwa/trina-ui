@@ -1,6 +1,6 @@
 <template>
   <a-dropdown placement="bottom">
-    <a-button size="small" class="header-button">
+    <t-button size="small" class="header-button">
       {{ $t('app.header.menu.more') }}
       <DownOutlined
         :style="{
@@ -9,7 +9,7 @@
           verticalAlign: 'middle',
         }"
       />
-    </a-button>
+    </t-button>
     <template #overlay>
       <Ecosystem />
     </template>

@@ -45,14 +45,14 @@ Add or remove form items dynamically.
       />
     </a-form-item>
     <a-form-item v-bind="formItemLayoutWithOutLabel">
-      <a-button type="dashed" style="width: 60%" @click="addDomain">
+      <t-button type="dashed" style="width: 60%" @click="addDomain">
         <PlusOutlined />
         Add field
-      </a-button>
+      </t-button>
     </a-form-item>
     <a-form-item v-bind="formItemLayoutWithOutLabel">
-      <a-button type="primary" html-type="submit" @click="submitForm">Submit</a-button>
-      <a-button style="margin-left: 10px" @click="resetForm">Reset</a-button>
+      <t-button type="primary" html-type="submit" @click="submitForm">Submit</t-button>
+      <t-button style="margin-left: 10px" @click="resetForm">Reset</t-button>
     </a-form-item>
   </a-form>
 </template>
@@ -60,7 +60,7 @@ Add or remove form items dynamically.
 <script lang="ts" setup>
 import { reactive, ref } from 'vue';
 import { MinusCircleOutlined, PlusOutlined } from '@ant-design/icons-vue';
-import type { FormInstance } from 'ant-design-vue';
+import type { FormInstance } from '@kaoniqiwa/trina-ui';
 
 interface Domain {
   value: string;

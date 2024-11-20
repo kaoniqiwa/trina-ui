@@ -1,5 +1,5 @@
 import { defineComponent } from 'vue';
-import { Tooltip } from 'ant-design-vue';
+import { Tooltip } from '@kaoniqiwa/trina-ui';
 import type { ComponentDemo } from '../../interface';
 
 const Demo = defineComponent({

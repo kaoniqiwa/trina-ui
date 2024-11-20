@@ -17,25 +17,25 @@ Use `notification.useNotification` to get `contextHolder` with context accessibl
 </docs>
 <template>
   <a-space>
-    <a-button type="primary" @click="() => open('topLeft')">
+    <t-button type="primary" @click="() => open('topLeft')">
       <RadiusUpleftOutlined />
       topLeft
-    </a-button>
-    <a-button type="primary" @click="() => open('topRight')">
+    </t-button>
+    <t-button type="primary" @click="() => open('topRight')">
       <RadiusUprightOutlined />
       topRight
-    </a-button>
+    </t-button>
   </a-space>
   <a-divider />
   <a-space>
-    <a-button type="primary" @click="() => open('bottomLeft')">
+    <t-button type="primary" @click="() => open('bottomLeft')">
       <RadiusBottomleftOutlined />
       bottomLeft
-    </a-button>
-    <a-button type="primary" @click="() => open('bottomRight')">
+    </t-button>
+    <t-button type="primary" @click="() => open('bottomRight')">
       <RadiusBottomrightOutlined />
       bottomRight
-    </a-button>
+    </t-button>
   </a-space>
   <contextHolder />
 </template>
@@ -47,7 +47,7 @@ import {
   RadiusUpleftOutlined,
   RadiusUprightOutlined,
 } from '@ant-design/icons-vue';
-import { NotificationPlacement, notification } from 'ant-design-vue';
+import { NotificationPlacement, notification } from '@kaoniqiwa/trina-ui';
 const [api, contextHolder] = notification.useNotification();
 const open = (placement: NotificationPlacement) => openNotification(placement);
 const openNotification = (placement: NotificationPlacement) => {

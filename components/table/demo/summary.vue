@@ -58,7 +58,7 @@ Set summary content by `summary` prop. Sync column fixed status with `a-table-su
 </template>
 
 <script lang="ts" setup>
-import type { TableColumnsType } from 'ant-design-vue';
+import type { TableColumnsType } from '@kaoniqiwa/trina-ui';
 import { computed, ref } from 'vue';
 
 const columns = ref<TableColumnsType>([

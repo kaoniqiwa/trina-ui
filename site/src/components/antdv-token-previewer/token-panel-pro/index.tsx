@@ -1,6 +1,6 @@
-import { Tabs } from 'ant-design-vue';
+import { Tabs } from '@kaoniqiwa/trina-ui';
 import type { Theme, SelectedToken } from '../interface';
-import classNames from 'ant-design-vue/es/_util/classNames';
+import classNames from '@kaoniqiwa/trina-ui/es/_util/classNames';
 import type { PropType } from 'vue';
 import { toRefs, defineComponent, watchEffect, computed, ref } from 'vue';
 import { useInjectLocaleContext } from '../locale';

@@ -134,10 +134,10 @@ Demonstration of validation configuration for form controls which are not shown 
         action="/upload.do"
         list-type="picture"
       >
-        <a-button>
+        <t-button>
           <template #icon><UploadOutlined /></template>
           Click to upload
-        </a-button>
+        </t-button>
       </a-upload>
     </a-form-item>
 
@@ -154,7 +154,7 @@ Demonstration of validation configuration for form controls which are not shown 
     </a-form-item>
 
     <a-form-item :wrapper-col="{ span: 12, offset: 6 }">
-      <a-button type="primary" html-type="submit">Submit</a-button>
+      <t-button type="primary" html-type="submit">Submit</t-button>
     </a-form-item>
   </a-form>
 </template>

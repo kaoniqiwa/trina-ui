@@ -1,8 +1,8 @@
 import type { PropType } from 'vue';
 import { defineComponent, toRefs, computed } from 'vue';
 import makeStyle from './utils/makeStyle';
-import classNames from 'ant-design-vue/es/_util/classNames';
-import { Button, Dropdown, Menu } from 'ant-design-vue';
+import classNames from '@kaoniqiwa/trina-ui/es/_util/classNames';
+import { Button, Dropdown, Menu } from '@kaoniqiwa/trina-ui';
 import { CloseOutlined, PlusOutlined } from '@ant-design/icons-vue';
 import type { Theme } from './interface';
 

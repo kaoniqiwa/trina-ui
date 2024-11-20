@@ -33,7 +33,7 @@ An event will be triggered when you click menu items, in which you can make diff
 </template>
 <script lang="ts" setup>
 import { DownOutlined } from '@ant-design/icons-vue';
-import type { MenuProps } from 'ant-design-vue';
+import type { MenuProps } from '@kaoniqiwa/trina-ui';
 
 const onClick: MenuProps['onClick'] = ({ key }) => {
   console.log(`Click on item ${key}`);

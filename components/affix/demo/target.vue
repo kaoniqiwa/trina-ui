@@ -20,7 +20,7 @@ Set a `target` for 'Affix', which is listen to scroll event of target element (d
   <div id="components-affix-demo-target" ref="containerRef" class="scrollable-container">
     <div class="background">
       <a-affix :target="() => containerRef">
-        <a-button type="primary">Fixed at the top of container</a-button>
+        <t-button type="primary">Fixed at the top of container</t-button>
       </a-affix>
     </div>
   </div>

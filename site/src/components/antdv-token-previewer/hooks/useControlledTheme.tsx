@@ -1,6 +1,6 @@
-import type { DerivativeFunc } from 'ant-design-vue/es/_util/cssinjs';
-import { theme as antTheme } from 'ant-design-vue';
-import type { ThemeConfig } from 'ant-design-vue/es/config-provider/context';
+import type { DerivativeFunc } from '@kaoniqiwa/trina-ui/es/_util/cssinjs';
+import { theme as antTheme } from '@kaoniqiwa/trina-ui';
+import type { ThemeConfig } from '@kaoniqiwa/trina-ui/es/config-provider/context';
 import type { Ref } from 'vue';
 import { watchEffect, ref, computed } from 'vue';
 import type { MutableTheme, Theme } from '../interface';

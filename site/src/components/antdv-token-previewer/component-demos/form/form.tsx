@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 import { defineComponent, ref, toRaw, reactive } from 'vue';
-import { Form, FormItem, Input, Button, Checkbox } from 'ant-design-vue';
+import { Form, FormItem, Input, Button, Checkbox } from '@kaoniqiwa/trina-ui';
 import type { ComponentDemo } from '../../interface';
 
 const Demo = defineComponent({

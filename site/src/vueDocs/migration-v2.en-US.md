@@ -45,7 +45,7 @@ The old way of using Icon will be obsolete:
 
 ```html
 <a-icon type="smile" />
-<a-button icon="smile" />
+<t-button icon="smile" />
 ```
 
 In 2.0, an on-demand introduction method will be adopted:
@@ -53,9 +53,9 @@ In 2.0, an on-demand introduction method will be adopted:
 ```html
 <template>
   <smile-outlined />
-  <a-button>
+  <t-button>
     <template #icon><smile-outlined /></template>
-  </a-button>
+  </t-button>
 </template>
 <script>
   import SmileOutlined from '@ant-design/icons-vue/SmileOutlined';

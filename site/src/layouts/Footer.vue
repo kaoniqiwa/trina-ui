@@ -40,7 +40,7 @@
           <div class="footer-center">
             <h2>{{ isCN ? '社区' : 'Community' }}</h2>
             <div v-if="isCN">
-              <a href="https://zhuanlan.zhihu.com/ant-design-vue" target="_blank">
+              <a href="https://zhuanlan.zhihu.com/@kaoniqiwa/trina-ui" target="_blank">
                 <span>知乎专栏</span>
               </a>
             </div>

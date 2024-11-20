@@ -25,9 +25,9 @@ The default PageHeader is a transparent background. In some cases, PageHeader ne
       @back="() => $router.go(-1)"
     >
       <template #extra>
-        <a-button key="3">Operation</a-button>
-        <a-button key="2">Operation</a-button>
-        <a-button key="1" type="primary">Primary</a-button>
+        <t-button key="3">Operation</t-button>
+        <t-button key="2">Operation</t-button>
+        <t-button key="1" type="primary">Primary</t-button>
       </template>
       <a-descriptions size="small" :column="3">
         <a-descriptions-item label="Created">Lili Qu</a-descriptions-item>

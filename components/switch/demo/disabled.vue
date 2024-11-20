@@ -19,7 +19,7 @@ Disabled state of `Switch`.
 <template>
   <a-space direction="vertical">
     <a-switch v-model:checked="checked" :disabled="disabled" />
-    <a-button type="primary" @click="onToggle">Toggle disabled</a-button>
+    <t-button type="primary" @click="onToggle">Toggle disabled</t-button>
   </a-space>
 </template>
 

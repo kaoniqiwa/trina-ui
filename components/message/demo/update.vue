@@ -17,15 +17,15 @@ Update message content with unique `key`，or use reactive data.
 </docs>
 
 <template>
-  <a-button type="primary" @click="openMessage">Open the message box (update by key)</a-button>
+  <t-button type="primary" @click="openMessage">Open the message box (update by key)</t-button>
   <br />
   <br />
-  <a-button type="primary" @click="openMessage2">
+  <t-button type="primary" @click="openMessage2">
     Open the message box (update by reactive)
-  </a-button>
+  </t-button>
 </template>
 <script lang="ts" setup>
-import { message } from 'ant-design-vue';
+import { message } from '@kaoniqiwa/trina-ui';
 import { ref } from 'vue';
 const key = 'updatable';
 const openMessage = () => {

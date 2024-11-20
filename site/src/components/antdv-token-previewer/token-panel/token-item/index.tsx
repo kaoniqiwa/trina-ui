@@ -1,7 +1,7 @@
 import { CaretRightOutlined } from '@ant-design/icons-vue';
-import { Collapse, Space } from 'ant-design-vue';
-import type { ThemeConfig } from 'ant-design-vue/es/config-provider/context';
-import classNames from 'ant-design-vue/es/_util/classNames';
+import { Collapse, Space } from '@kaoniqiwa/trina-ui';
+import type { ThemeConfig } from '@kaoniqiwa/trina-ui/es/config-provider/context';
+import classNames from '@kaoniqiwa/trina-ui/es/_util/classNames';
 import type { PropType, CSSProperties } from 'vue';
 import { defineComponent, toRefs, watch, computed, ref } from 'vue';
 import ColorPreview from '../../ColorPreview';

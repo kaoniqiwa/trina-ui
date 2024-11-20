@@ -18,31 +18,31 @@ A notification box can appear from the `topRight`, `bottomRight`, `bottomLeft` o
 
 <template>
   <div>
-    <a-button type="primary" @click="openNotification('top')">
+    <t-button type="primary" @click="openNotification('top')">
       <template #icon><BorderTopOutlined /></template>
       top
-    </a-button>
-    <a-button type="primary" @click="openNotification('bottom')">
+    </t-button>
+    <t-button type="primary" @click="openNotification('bottom')">
       <template #icon><BorderBottomOutlined /></template>
       bottom
-    </a-button>
-    <a-button type="primary" @click="openNotification('topLeft')">
+    </t-button>
+    <t-button type="primary" @click="openNotification('topLeft')">
       <template #icon><radius-upleft-outlined /></template>
       topLeft
-    </a-button>
-    <a-button type="primary" @click="openNotification('topRight')">
+    </t-button>
+    <t-button type="primary" @click="openNotification('topRight')">
       <template #icon><radius-upright-outlined /></template>
       topRight
-    </a-button>
+    </t-button>
     <a-divider />
-    <a-button type="primary" @click="openNotification('bottomLeft')">
+    <t-button type="primary" @click="openNotification('bottomLeft')">
       <template #icon><radius-bottomleft-outlined /></template>
       bottomLeft
-    </a-button>
-    <a-button type="primary" @click="openNotification('bottomRight')">
+    </t-button>
+    <t-button type="primary" @click="openNotification('bottomRight')">
       <template #icon><radius-bottomright-outlined /></template>
       bottomRight
-    </a-button>
+    </t-button>
   </div>
 </template>
 <script lang="ts" setup>
@@ -54,8 +54,8 @@ import {
   BorderTopOutlined,
   BorderBottomOutlined,
 } from '@ant-design/icons-vue';
-import { notification } from 'ant-design-vue';
-import type { NotificationPlacement } from 'ant-design-vue';
+import { notification } from '@kaoniqiwa/trina-ui';
+import type { NotificationPlacement } from '@kaoniqiwa/trina-ui';
 const openNotification = (placement: NotificationPlacement) => {
   notification.open({
     message: `Notification ${placement}`,

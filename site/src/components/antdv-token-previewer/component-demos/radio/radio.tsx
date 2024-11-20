@@ -1,4 +1,4 @@
-import { Radio } from 'ant-design-vue';
+import { Radio } from '@kaoniqiwa/trina-ui';
 import type { ComponentDemo } from '../../interface';
 
 const Demo = () => <Radio checked>Radio</Radio>;

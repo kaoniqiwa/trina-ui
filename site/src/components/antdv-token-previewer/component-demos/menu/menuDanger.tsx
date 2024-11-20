@@ -1,5 +1,5 @@
-import type { MenuProps } from 'ant-design-vue';
-import { Menu } from 'ant-design-vue';
+import type { MenuProps } from '@kaoniqiwa/trina-ui';
+import { Menu } from '@kaoniqiwa/trina-ui';
 
 import type { ComponentDemo } from '../../interface';
 

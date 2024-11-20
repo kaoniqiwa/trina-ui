@@ -1,5 +1,5 @@
 import { defineComponent } from 'vue';
-import { Divider } from 'ant-design-vue';
+import { Divider } from '@kaoniqiwa/trina-ui';
 
 import type { ComponentDemo } from '../../interface';
 

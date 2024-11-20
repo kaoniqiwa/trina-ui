@@ -1,5 +1,5 @@
 import { defineComponent } from 'vue';
-import { Popover, Button } from 'ant-design-vue';
+import { Popover, Button } from '@kaoniqiwa/trina-ui';
 import type { ComponentDemo } from '../../interface';
 
 const Demo = defineComponent({

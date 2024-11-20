@@ -110,7 +110,7 @@ import { CheckOutlined, SnippetsOutlined, CodeSandboxOutlined } from '@ant-desig
 import { getCodeSandboxParams } from '../utils/generateOnlineDemo';
 import packageInfo from '../../../package.json';
 
-// import { Modal } from 'ant-design-vue';
+// import { Modal } from '@kaoniqiwa/trina-ui';
 export default defineComponent({
   name: 'DemoBox',
   components: {
@@ -206,7 +206,7 @@ export default defineComponent({
     const handleCodeSandbox = () => {
       const code = codeRef.value.innerText;
       const params = getCodeSandboxParams(code, {
-        title: `${title.value} - ant-design-vue@${packageInfo.version}`,
+        title: `${title.value} - @kaoniqiwa/trina-ui@${packageInfo.version}`,
       });
       const div = document.createElement('div');
       div.style.display = 'none';

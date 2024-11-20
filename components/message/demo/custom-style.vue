@@ -17,10 +17,10 @@ The `style` and `class` are available to customize Message.
 </docs>
 
 <template>
-  <a-button @click="success">Customized style</a-button>
+  <t-button @click="success">Customized style</t-button>
 </template>
 <script lang="ts" setup>
-import { message } from 'ant-design-vue';
+import { message } from '@kaoniqiwa/trina-ui';
 const success = () => {
   message.success({
     content: () => 'This is a prompt message with custom className and style',

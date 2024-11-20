@@ -6,7 +6,7 @@ import { createApp, Transition, TransitionGroup, version as vueVersion } from 'v
 import i18n from './i18n';
 import NProgress from 'nprogress';
 import router from './router';
-import Antd from 'ant-design-vue';
+import Antd from '@kaoniqiwa/trina-ui';
 import demoBox from './components/DemoBox.vue';
 import demoContainer from './components/demoContainer.vue';
 import demoSort from './components/demoSort.jsx';

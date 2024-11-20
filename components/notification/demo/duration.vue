@@ -19,10 +19,10 @@ the notification box will never close automatically.
 </docs>
 
 <template>
-  <a-button type="primary" @click="openNotification">Open the notification box</a-button>
+  <t-button type="primary" @click="openNotification">Open the notification box</t-button>
 </template>
 <script lang="ts" setup>
-import { notification } from 'ant-design-vue';
+import { notification } from '@kaoniqiwa/trina-ui';
 const openNotification = () => {
   notification.open({
     message: 'Notification Title',

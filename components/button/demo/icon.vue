@@ -23,25 +23,25 @@ If you want specific control over the positioning and placement of the `Icon`, t
   <a-space direction="vertical">
     <a-space warp>
       <a-tooltip title="search">
-        <a-button type="primary" shape="circle" :icon="h(SearchOutlined)" />
+        <t-button type="primary" shape="circle" :icon="h(SearchOutlined)" />
       </a-tooltip>
-      <a-button type="primary" shape="circle">A</a-button>
-      <a-button type="primary" :icon="h(SearchOutlined)">Search</a-button>
+      <t-button type="primary" shape="circle">A</t-button>
+      <t-button type="primary" :icon="h(SearchOutlined)">Search</t-button>
       <a-tooltip title="search">
-        <a-button shape="circle" :icon="h(SearchOutlined)" />
+        <t-button shape="circle" :icon="h(SearchOutlined)" />
       </a-tooltip>
-      <a-button :icon="h(SearchOutlined)">Search</a-button>
+      <t-button :icon="h(SearchOutlined)">Search</t-button>
     </a-space>
     <a-space warp>
       <a-tooltip title="search">
-        <a-button shape="circle" :icon="h(SearchOutlined)" />
+        <t-button shape="circle" :icon="h(SearchOutlined)" />
       </a-tooltip>
-      <a-button :icon="h(SearchOutlined)">Search</a-button>
+      <t-button :icon="h(SearchOutlined)">Search</t-button>
       <a-tooltip title="search">
-        <a-button type="dashed" shape="circle" :icon="h(SearchOutlined)" />
+        <t-button type="dashed" shape="circle" :icon="h(SearchOutlined)" />
       </a-tooltip>
-      <a-button type="dashed" :icon="h(SearchOutlined)">Search</a-button>
-      <a-button :icon="h(SearchOutlined)" href="https://www.google.com" />
+      <t-button type="dashed" :icon="h(SearchOutlined)">Search</t-button>
+      <t-button :icon="h(SearchOutlined)" href="https://www.google.com" />
     </a-space>
   </a-space>
 </template>

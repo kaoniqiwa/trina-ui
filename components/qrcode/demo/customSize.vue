@@ -15,16 +15,16 @@ Custom Size.
 </docs>
 
 <template>
-  <a-button-group>
-    <a-button @click="decline">
+  <t-button-group>
+    <t-button @click="decline">
       <template #icon><MinusOutlined /></template>
       small
-    </a-button>
-    <a-button @click="increase">
+    </t-button>
+    <t-button @click="increase">
       <template #icon><PlusOutlined /></template>
       large
-    </a-button>
-  </a-button-group>
+    </t-button>
+  </t-button-group>
   <br />
   <br />
   <a-qrcode

@@ -20,7 +20,7 @@ Use `visible` prop to control the display of the card.
     <template #content>
       <a @click="hide">Close</a>
     </template>
-    <a-button type="primary">Click me</a-button>
+    <t-button type="primary">Click me</t-button>
   </a-popover>
 </template>
 

@@ -27,7 +27,7 @@ To load data asynchronously when click to expand a treeNode.
 
 <script lang="ts" setup>
 import { ref } from 'vue';
-import type { TreeProps } from 'ant-design-vue';
+import type { TreeProps } from '@kaoniqiwa/trina-ui';
 
 const expandedKeys = ref<string[]>([]);
 const selectedKeys = ref<string[]>([]);

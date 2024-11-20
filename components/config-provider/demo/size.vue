@@ -50,7 +50,7 @@ Config component default size.
       <a-range-picker />
     </div>
     <div class="example">
-      <a-button>Button</a-button>
+      <t-button>Button</t-button>
     </div>
     <div class="example">
       <a-card title="Card">

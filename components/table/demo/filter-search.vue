@@ -21,7 +21,7 @@ title:
   <a-table :columns="columns" :data-source="data" @change="onChange"></a-table>
 </template>
 <script lang="ts" setup>
-import type { TableProps } from 'ant-design-vue';
+import type { TableProps } from '@kaoniqiwa/trina-ui';
 const columns: TableProps['columns'] = [
   {
     title: 'Name',

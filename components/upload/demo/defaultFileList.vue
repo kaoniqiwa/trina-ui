@@ -17,16 +17,16 @@ Use `fileList` for uploaded files when page init.
 
 <template>
   <a-upload v-model:file-list="fileList" action="https://www.mocky.io/v2/5cc8019d300000980a055e76">
-    <a-button>
+    <t-button>
       <upload-outlined></upload-outlined>
       Upload
-    </a-button>
+    </t-button>
   </a-upload>
 </template>
 <script lang="ts" setup>
 import { ref } from 'vue';
 import { UploadOutlined } from '@ant-design/icons-vue';
-import type { UploadProps } from 'ant-design-vue';
+import type { UploadProps } from '@kaoniqiwa/trina-ui';
 const fileList = ref<UploadProps['fileList']>([
   {
     uid: '1',

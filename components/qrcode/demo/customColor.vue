@@ -26,7 +26,7 @@ Custom Color.
 </template>
 
 <script lang="ts" setup>
-import { theme } from 'ant-design-vue';
+import { theme } from '@kaoniqiwa/trina-ui';
 
 const { useToken } = theme;
 const { token } = useToken();

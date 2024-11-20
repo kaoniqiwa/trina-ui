@@ -1,4 +1,4 @@
-import { TimePicker } from 'ant-design-vue';
+import { TimePicker } from '@kaoniqiwa/trina-ui';
 import type { ComponentDemo } from '../../interface';
 
 const Demo = () => <TimePicker />;

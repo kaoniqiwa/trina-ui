@@ -19,7 +19,7 @@ Show processing results.
 <template>
   <a-result title="Your operation has been executed">
     <template #extra>
-      <a-button key="console" type="primary">Go Console</a-button>
+      <t-button key="console" type="primary">Go Console</t-button>
     </template>
   </a-result>
 </template>

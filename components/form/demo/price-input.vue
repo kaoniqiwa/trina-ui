@@ -14,7 +14,7 @@
 </template>
 
 <script lang="ts" setup>
-import { Form } from 'ant-design-vue';
+import { Form } from '@kaoniqiwa/trina-ui';
 
 export type Currency = 'rmb' | 'dollar';
 

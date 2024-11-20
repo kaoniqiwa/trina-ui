@@ -21,7 +21,7 @@ Radio unavailable.
     <a-radio v-model:checked="checked2" :disabled="disabled">Disabled</a-radio>
     <br />
     <div style="margin-top: 16px">
-      <a-button type="primary" @click="toggleDisabled">Toggle disabled</a-button>
+      <t-button type="primary" @click="toggleDisabled">Toggle disabled</t-button>
     </div>
   </div>
 </template>

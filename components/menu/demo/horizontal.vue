@@ -22,7 +22,7 @@ Horizontal top navigation menu.
 <script lang="ts" setup>
 import { h, ref } from 'vue';
 import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons-vue';
-import { MenuProps } from 'ant-design-vue';
+import { MenuProps } from '@kaoniqiwa/trina-ui';
 const current = ref<string[]>(['mail']);
 const items = ref<MenuProps['items']>([
   {

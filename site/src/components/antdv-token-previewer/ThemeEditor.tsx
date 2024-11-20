@@ -1,7 +1,7 @@
 import type { PropType } from 'vue';
 import { defineComponent, toRefs, ref, computed } from 'vue';
-import type { DerivativeFunc } from 'ant-design-vue/es/_util/cssinjs';
-import classNames from 'ant-design-vue/es/_util/classNames';
+import type { DerivativeFunc } from '@kaoniqiwa/trina-ui/es/_util/cssinjs';
+import classNames from '@kaoniqiwa/trina-ui/es/_util/classNames';
 import type { SelectedToken, Theme } from './interface';
 import type { Locale } from './locale';
 import { useProvideLocaleContext, zhCN } from './locale';

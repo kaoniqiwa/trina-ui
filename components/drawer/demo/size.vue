@@ -17,14 +17,14 @@ The default width (or height) of Drawer is `378px`, and there is a presetted lar
 </docs>
 
 <template>
-  <a-button type="primary" style="margin-right: 8px" @click="showDrawer('default')">
+  <t-button type="primary" style="margin-right: 8px" @click="showDrawer('default')">
     Open Default Size (378px)
-  </a-button>
-  <a-button type="primary" @click="showDrawer('large')">Open Large Size (736px)</a-button>
+  </t-button>
+  <t-button type="primary" @click="showDrawer('large')">Open Large Size (736px)</t-button>
   <a-drawer title="Basic Drawer" :size="size" :open="open" @close="onClose">
     <template #extra>
-      <a-button style="margin-right: 8px" @click="onClose">Cancel</a-button>
-      <a-button type="primary" @click="onClose">Submit</a-button>
+      <t-button style="margin-right: 8px" @click="onClose">Cancel</t-button>
+      <t-button type="primary" @click="onClose">Submit</t-button>
     </template>
     <p>Some contents...</p>
     <p>Some contents...</p>
@@ -33,7 +33,7 @@ The default width (or height) of Drawer is `378px`, and there is a presetted lar
 </template>
 <script lang="ts" setup>
 import { ref } from 'vue';
-import type { DrawerProps } from 'ant-design-vue';
+import type { DrawerProps } from '@kaoniqiwa/trina-ui';
 const open = ref<boolean>(false);
 const size = ref<DrawerProps['size']>('default');
 

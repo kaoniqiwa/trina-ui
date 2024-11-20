@@ -1,5 +1,5 @@
 import { defineComponent } from 'vue';
-import { Button, Space, Tooltip } from 'ant-design-vue';
+import { Button, Space, Tooltip } from '@kaoniqiwa/trina-ui';
 import { SearchOutlined } from '@ant-design/icons-vue';
 
 import type { ComponentDemo } from '../../interface';

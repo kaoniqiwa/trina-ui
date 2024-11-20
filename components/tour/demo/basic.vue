@@ -18,14 +18,14 @@ The most basic usage.
 </docs>
 
 <template>
-  <a-button type="primary" @click="handleOpen(true)">Begin Tour</a-button>
+  <t-button type="primary" @click="handleOpen(true)">Begin Tour</t-button>
 
   <a-divider />
 
   <a-space>
-    <a-button ref="ref1">Upload</a-button>
-    <a-button ref="ref2" type="primary">Save</a-button>
-    <a-button ref="ref3"><EllipsisOutlined /></a-button>
+    <t-button ref="ref1">Upload</t-button>
+    <t-button ref="ref2" type="primary">Save</t-button>
+    <t-button ref="ref3"><EllipsisOutlined /></t-button>
   </a-space>
 
   <a-tour v-model:current="current" :open="open" :steps="steps" @close="handleOpen(false)" />
@@ -34,7 +34,7 @@ The most basic usage.
 <script lang="ts" setup>
 import { ref, createVNode } from 'vue';
 import { EllipsisOutlined } from '@ant-design/icons-vue';
-import type { TourProps } from 'ant-design-vue';
+import type { TourProps } from '@kaoniqiwa/trina-ui';
 
 const open = ref<boolean>(false);
 

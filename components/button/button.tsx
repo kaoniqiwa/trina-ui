@@ -34,7 +34,7 @@ function isUnBorderedButtonType(type: ButtonType | undefined) {
 export { buttonProps };
 export default defineComponent({
   compatConfig: { MODE: 3 },
-  name: 'AButton',
+  name: 'TButton',
   inheritAttrs: false,
   __ANT_BUTTON: true,
   props: initDefaultProps(buttonProps(), { type: 'default' }),
@@ -196,7 +196,7 @@ export default defineComponent({
         onClick: handleClick,
         onMousedown: handleMousedown,
       };
-      // https://github.com/vueComponent/ant-design-vue/issues/4930
+      // https://github.com/kaoniqiwa/trina-ui/issues/4930
       if (!mergedDisabled.value) {
         delete buttonProps.disabled;
       }

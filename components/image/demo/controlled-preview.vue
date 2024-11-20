@@ -18,7 +18,7 @@ You can make preview controlled.
 
 <template>
   <div>
-    <a-button type="primary" @click="() => setVisible(true)">show image preview</a-button>
+    <t-button type="primary" @click="() => setVisible(true)">show image preview</t-button>
     <a-image
       :width="200"
       :style="{ display: 'none' }"

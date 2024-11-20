@@ -18,14 +18,14 @@ Change the placement of the guide relative to the target, there are 12 placement
 </docs>
 
 <template>
-  <a-button ref="btnRef" type="primary" @click="handleOpen(true)">Begin Tour</a-button>
+  <t-button ref="btnRef" type="primary" @click="handleOpen(true)">Begin Tour</t-button>
 
   <a-tour :open="open" :steps="steps" @close="handleOpen(false)" />
 </template>
 
 <script lang="ts" setup>
 import { ref } from 'vue';
-import type { TourProps } from 'ant-design-vue';
+import type { TourProps } from '@kaoniqiwa/trina-ui';
 
 const open = ref<boolean>(false);
 

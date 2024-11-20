@@ -22,21 +22,21 @@ Mouse to click, focus and move in.
         <p>Content</p>
         <p>Content</p>
       </template>
-      <a-button>Hover me</a-button>
+      <t-button>Hover me</t-button>
     </a-popover>
     <a-popover title="Title" trigger="focus">
       <template #content>
         <p>Content</p>
         <p>Content</p>
       </template>
-      <a-button>Focus me</a-button>
+      <t-button>Focus me</t-button>
     </a-popover>
     <a-popover title="Title" trigger="click">
       <template #content>
         <p>Content</p>
         <p>Content</p>
       </template>
-      <a-button>Click me</a-button>
+      <t-button>Click me</t-button>
     </a-popover>
   </div>
 </template>

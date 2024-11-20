@@ -18,10 +18,10 @@ danger is a property of button after antd 2.2.0.
 
 <template>
   <a-space warp>
-    <a-button type="primary" danger>Primary</a-button>
-    <a-button danger>Default</a-button>
-    <a-button type="dashed" danger>Dashed</a-button>
-    <a-button type="text" danger>Text</a-button>
-    <a-button type="link" danger>Link</a-button>
+    <t-button type="primary" danger>Primary</t-button>
+    <t-button danger>Default</t-button>
+    <t-button type="dashed" danger>Dashed</t-button>
+    <t-button type="text" danger>Text</t-button>
+    <t-button type="link" danger>Link</t-button>
   </a-space>
 </template>

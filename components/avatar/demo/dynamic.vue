@@ -19,12 +19,12 @@ For letter type Avatar, when the letters are too long to display, the font size 
   <a-avatar size="large" :style="{ backgroundColor: color, verticalAlign: 'middle' }" :gap="gap">
     {{ avatarValue }}
   </a-avatar>
-  <a-button size="small" :style="{ margin: '0 16px', verticalAlign: 'middle' }" @click="changeUser">
+  <t-button size="small" :style="{ margin: '0 16px', verticalAlign: 'middle' }" @click="changeUser">
     ChangeUser
-  </a-button>
-  <a-button size="small" :style="{ verticalAlign: 'middle' }" @click="changeGap">
+  </t-button>
+  <t-button size="small" :style="{ verticalAlign: 'middle' }" @click="changeGap">
     ChangeGap
-  </a-button>
+  </t-button>
 </template>
 
 <script lang="ts" setup>

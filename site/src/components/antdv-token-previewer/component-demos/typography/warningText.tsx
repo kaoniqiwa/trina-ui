@@ -1,5 +1,5 @@
 import { defineComponent } from 'vue';
-import { Typography } from 'ant-design-vue';
+import { Typography } from '@kaoniqiwa/trina-ui';
 import type { ComponentDemo } from '../../interface';
 
 const { Text } = Typography;

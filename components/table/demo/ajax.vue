@@ -39,7 +39,7 @@ Setting `rowSelection.preserveSelectedRowKeys` to keep the `key` when enable sel
 </template>
 <script lang="ts" setup>
 import { computed } from 'vue';
-import type { TableProps } from 'ant-design-vue';
+import type { TableProps } from '@kaoniqiwa/trina-ui';
 import { usePagination } from 'vue-request';
 import axios from 'axios';
 const columns = [

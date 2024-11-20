@@ -34,14 +34,14 @@ App provides upstream and downstream method calls through `provide/inject`, beca
 /*myPage.vue*/
 <template>
   <a-space>
-    <a-button type="primary" @click="showMessage">Open message</a-button>
-    <a-button type="primary" @click="showModal">Open modal</a-button>
-    <a-button type="primary" @click="showNotification">Open notification</a-button>
+    <t-button type="primary" @click="showMessage">Open message</t-button>
+    <t-button type="primary" @click="showModal">Open modal</t-button>
+    <t-button type="primary" @click="showNotification">Open notification</t-button>
   </a-space>
 </template>
 
 <script setup lang="ts">
-  import { App } from 'ant-design-vue';
+  import { App } from '@kaoniqiwa/trina-ui';
 
   const { message, modal, notification } = App.useApp();
 
@@ -92,10 +92,10 @@ The App component can only use the token in the `ConfigProvider`, if you need to
 #### Global scene (pinia scene)
 
 ```ts
-import { App } from 'ant-design-vue';
-import type { MessageInstance } from 'ant-design-vue/es/message/interface';
-import type { ModalStaticFunctions } from 'ant-design-vue/es/modal/confirm';
-import type { NotificationInstance } from 'ant-design-vue/es/notification/interface';
+import { App } from '@kaoniqiwa/trina-ui';
+import type { MessageInstance } from '@kaoniqiwa/trina-ui/es/message/interface';
+import type { ModalStaticFunctions } from '@kaoniqiwa/trina-ui/es/modal/confirm';
+import type { NotificationInstance } from '@kaoniqiwa/trina-ui/es/notification/interface';
 
 export const useGlobalStore = defineStore('global', () => {
   const message: MessageInstance = ref();
@@ -116,7 +116,7 @@ export const useGlobalStore = defineStore('global', () => {
 // sub page
 <template>
   <a-space>
-    <a-button type="primary" @click="showMessage">Open message</a-button>
+    <t-button type="primary" @click="showMessage">Open message</t-button>
   </a-space>
 </template>
 

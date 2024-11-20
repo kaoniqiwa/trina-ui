@@ -1,4 +1,4 @@
-import { Anchor } from 'ant-design-vue';
+import { Anchor } from '@kaoniqiwa/trina-ui';
 import type { ComponentDemo } from '../../interface';
 
 const { Link } = Anchor;

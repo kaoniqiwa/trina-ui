@@ -1,5 +1,5 @@
 import { defineComponent } from 'vue';
-import { Input } from 'ant-design-vue';
+import { Input } from '@kaoniqiwa/trina-ui';
 import type { ComponentDemo } from '../../interface';
 
 const Demo = defineComponent({

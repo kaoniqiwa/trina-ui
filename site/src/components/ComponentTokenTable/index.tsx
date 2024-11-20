@@ -1,9 +1,9 @@
 import { defineComponent, toRefs, computed } from 'vue';
 import type { PropType } from 'vue';
-import { ConfigProvider, Table } from 'ant-design-vue';
+import { ConfigProvider, Table } from '@kaoniqiwa/trina-ui';
 import { getDesignToken } from '../antdv-token-previewer';
-import tokenMeta from 'ant-design-vue/es/version/token-meta.json';
-import tokenData from 'ant-design-vue/es/version/token.json';
+import tokenMeta from '@kaoniqiwa/trina-ui/es/version/token-meta.json';
+import tokenData from '@kaoniqiwa/trina-ui/es/version/token.json';
 import { useLocale } from '../../i18n';
 import useSiteToken from '../../hooks/useSiteToken';
 import { useColumns } from '../TokenTable';

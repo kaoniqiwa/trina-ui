@@ -34,7 +34,7 @@ The default is to close the menu when you click on menu items, this feature can 
 <script lang="ts" setup>
 import { ref } from 'vue';
 import { DownOutlined } from '@ant-design/icons-vue';
-import type { MenuProps } from 'ant-design-vue';
+import type { MenuProps } from '@kaoniqiwa/trina-ui';
 const visible = ref(false);
 const handleMenuClick: MenuProps['onClick'] = e => {
   if (e.key === '3') {

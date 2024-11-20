@@ -18,7 +18,7 @@ Use `width` to set the width of the modal dialog
 
 <template>
   <div>
-    <a-button type="primary" @click="showModal">Open Modal of 1000px width</a-button>
+    <t-button type="primary" @click="showModal">Open Modal of 1000px width</t-button>
     <a-modal v-model:open="open" width="1000px" title="Basic Modal" @ok="handleOk">
       <p>Some contents...</p>
       <p>Some contents...</p>

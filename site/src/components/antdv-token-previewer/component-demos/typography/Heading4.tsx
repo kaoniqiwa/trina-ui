@@ -1,4 +1,4 @@
-import { Typography } from 'ant-design-vue';
+import { Typography } from '@kaoniqiwa/trina-ui';
 import type { ComponentDemo } from '../../interface';
 
 const { Title } = Typography;

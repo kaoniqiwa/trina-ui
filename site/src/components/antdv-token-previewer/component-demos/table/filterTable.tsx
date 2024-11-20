@@ -1,6 +1,6 @@
 import { defineComponent } from 'vue';
-import type { TableProps } from 'ant-design-vue';
-import { Table } from 'ant-design-vue';
+import type { TableProps } from '@kaoniqiwa/trina-ui';
+import { Table } from '@kaoniqiwa/trina-ui';
 
 import type { ComponentDemo } from '../../interface';
 

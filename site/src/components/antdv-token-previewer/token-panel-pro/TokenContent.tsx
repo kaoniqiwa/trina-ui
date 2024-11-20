@@ -8,12 +8,12 @@ import {
   Switch,
   Tooltip,
   Typography,
-} from 'ant-design-vue';
+} from '@kaoniqiwa/trina-ui';
 import type { MutableTheme, SelectedToken } from '../interface';
-import type { ThemeConfig } from 'ant-design-vue/es/config-provider/context';
-import seed from 'ant-design-vue/es/theme/themes/seed';
-import tokenMeta from 'ant-design-vue/es/version/token-meta.json';
-import classNames from 'ant-design-vue/es/_util/classNames';
+import type { ThemeConfig } from '@kaoniqiwa/trina-ui/es/config-provider/context';
+import seed from '@kaoniqiwa/trina-ui/es/theme/themes/seed';
+import tokenMeta from '@kaoniqiwa/trina-ui/es/version/token-meta.json';
+import classNames from '@kaoniqiwa/trina-ui/es/_util/classNames';
 
 import type { PropType } from 'vue';
 import { toRefs, defineComponent, watchEffect, computed, watch, ref } from 'vue';

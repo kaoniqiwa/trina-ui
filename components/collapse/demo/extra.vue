@@ -41,7 +41,7 @@ More than one panel can be expanded at a time, the first panel is initialized to
 <script lang="ts" setup>
 import { SettingOutlined } from '@ant-design/icons-vue';
 import { ref, watch } from 'vue';
-import type { CollapseProps } from 'ant-design-vue';
+import type { CollapseProps } from '@kaoniqiwa/trina-ui';
 
 const text = `A dog is a type of domesticated animal.Known for its loyalty and faithfulness,it can be found as a welcome guest in many households across the world.`;
 const activeKey = ref(['1']);

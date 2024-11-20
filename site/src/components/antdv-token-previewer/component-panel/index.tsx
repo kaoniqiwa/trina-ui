@@ -1,6 +1,6 @@
 import { MenuFoldOutlined, MenuUnfoldOutlined } from '@ant-design/icons-vue';
-import { Breadcrumb, Segmented, Switch } from 'ant-design-vue';
-import classNames from 'ant-design-vue/es/_util/classNames';
+import { Breadcrumb, Segmented, Switch } from '@kaoniqiwa/trina-ui';
+import classNames from '@kaoniqiwa/trina-ui/es/_util/classNames';
 import type { PropType } from 'vue';
 import { defineComponent, ref, watch, watchEffect, computed, toRefs } from 'vue';
 import type { FilterMode } from '../FilterPanel';

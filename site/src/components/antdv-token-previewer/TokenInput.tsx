@@ -1,5 +1,5 @@
-import { Button, Popover, Input, InputNumber } from 'ant-design-vue';
-import classNames from 'ant-design-vue/es/_util/classNames';
+import { Button, Popover, Input, InputNumber } from '@kaoniqiwa/trina-ui';
+import classNames from '@kaoniqiwa/trina-ui/es/_util/classNames';
 import type { PropType } from 'vue';
 import { defineComponent, toRefs, computed, ref, watch } from 'vue';
 import { debounce } from 'lodash';

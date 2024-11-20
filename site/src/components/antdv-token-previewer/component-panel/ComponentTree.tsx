@@ -1,8 +1,8 @@
 import type { PropType } from 'vue';
 import { defineComponent, toRefs, watch, computed, ref } from 'vue';
 import { SearchOutlined } from '@ant-design/icons-vue';
-import { Badge, Input, Tree } from 'ant-design-vue';
-import classNames from 'ant-design-vue/es/_util/classNames';
+import { Badge, Input, Tree } from '@kaoniqiwa/trina-ui';
+import classNames from '@kaoniqiwa/trina-ui/es/_util/classNames';
 import type { FilterMode } from '../FilterPanel';
 import makeStyle from '../utils/makeStyle';
 import { getRelatedComponents } from '../utils/statistic';

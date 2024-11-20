@@ -34,6 +34,6 @@ Use `label` show time alone.
 </template>
 <script lang="ts" setup>
 import { ref } from 'vue';
-import type { TimelineProps } from 'ant-design-vue';
+import type { TimelineProps } from '@kaoniqiwa/trina-ui';
 const mode = ref<TimelineProps['mode']>('left');
 </script>

@@ -13,8 +13,8 @@ export default {
         process.env.NODE_ENV === 'production'
           ? 'vue/dist/vue.runtime.esm-browser.prod.js'
           : 'vue/dist/vue.esm-bundler.js',
-      'ant-design-vue/es': path.resolve(__dirname, '../components'),
-      'ant-design-vue': path.resolve(__dirname, '../components'),
+      '@kaoniqiwa/trina-ui/es': path.resolve(__dirname, '../components'),
+      '@kaoniqiwa/trina-ui': path.resolve(__dirname, '../components'),
       '@': path.resolve(__dirname, './src'),
     },
   },

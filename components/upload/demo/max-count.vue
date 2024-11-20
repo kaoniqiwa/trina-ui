@@ -23,10 +23,10 @@ Limit files with `maxCount`. Will replace current one when `maxCount` is `1`.
       :max-count="1"
       action="https://www.mocky.io/v2/5cc8019d300000980a055e76"
     >
-      <a-button>
+      <t-button>
         <upload-outlined></upload-outlined>
         Upload (Max: 1)
-      </a-button>
+      </t-button>
     </a-upload>
     <a-upload
       v-model:file-list="fileList2"
@@ -34,17 +34,17 @@ Limit files with `maxCount`. Will replace current one when `maxCount` is `1`.
       :max-count="3"
       action="https://www.mocky.io/v2/5cc8019d300000980a055e76"
     >
-      <a-button>
+      <t-button>
         <upload-outlined></upload-outlined>
         Upload (Max: 3)
-      </a-button>
+      </t-button>
     </a-upload>
   </a-space>
 </template>
 <script lang="ts" setup>
 import { ref } from 'vue';
 import { UploadOutlined } from '@ant-design/icons-vue';
-import type { UploadProps } from 'ant-design-vue';
+import type { UploadProps } from '@kaoniqiwa/trina-ui';
 const fileList = ref<UploadProps['fileList']>([]);
 const fileList2 = ref<UploadProps['fileList']>([]);
 </script>

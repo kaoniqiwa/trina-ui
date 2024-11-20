@@ -30,7 +30,7 @@ Progressive when large image loading.
         />
       </template>
     </a-image>
-    <a-button type="primary" @click="random = Date.now()">reload</a-button>
+    <t-button type="primary" @click="random = Date.now()">reload</t-button>
   </a-space>
 </template>
 <script lang="ts" setup>

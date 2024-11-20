@@ -21,21 +21,21 @@ Cooperate with the content and buttons, to represent the progress of a process.
       {{ steps[current].content }}
     </div>
     <div class="steps-action">
-      <a-button v-if="current < steps.length - 1" type="primary" @click="next">Next</a-button>
-      <a-button
+      <t-button v-if="current < steps.length - 1" type="primary" @click="next">Next</t-button>
+      <t-button
         v-if="current == steps.length - 1"
         type="primary"
         @click="message.success('Processing complete!')"
       >
         Done
-      </a-button>
-      <a-button v-if="current > 0" style="margin-left: 8px" @click="prev">Previous</a-button>
+      </t-button>
+      <t-button v-if="current > 0" style="margin-left: 8px" @click="prev">Previous</t-button>
     </div>
   </div>
 </template>
 <script lang="ts" setup>
 import { ref } from 'vue';
-import { message } from 'ant-design-vue';
+import { message } from '@kaoniqiwa/trina-ui';
 const current = ref<number>(0);
 const next = () => {
   current.value++;

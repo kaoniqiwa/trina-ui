@@ -23,17 +23,17 @@ Customize local preview. Can handle with non-image format files such as video.
       action="//jsonplaceholder.typicode.com/posts/"
       :preview-file="previewFile"
     >
-      <a-button>
+      <t-button>
         <upload-outlined></upload-outlined>
         Upload
-      </a-button>
+      </t-button>
     </a-upload>
   </div>
 </template>
 <script lang="ts" setup>
 import { ref } from 'vue';
 import { UploadOutlined } from '@ant-design/icons-vue';
-import type { UploadProps } from 'ant-design-vue';
+import type { UploadProps } from '@kaoniqiwa/trina-ui';
 
 const previewFile: UploadProps['previewFile'] = async file => {
   console.log('Your upload file:', file);

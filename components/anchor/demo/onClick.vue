@@ -52,7 +52,7 @@ Clicking on an anchor does not record history.
 </template>
 
 <script lang="ts" setup>
-import type { AnchorProps } from 'ant-design-vue';
+import type { AnchorProps } from '@kaoniqiwa/trina-ui';
 const handleClick: AnchorProps['onClick'] = (e, link) => {
   e.preventDefault();
   console.log(link);

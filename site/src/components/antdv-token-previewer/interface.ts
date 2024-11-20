@@ -1,5 +1,5 @@
-import type { ThemeConfig } from 'ant-design-vue/es/config-provider/context';
-import type { VueNode } from 'ant-design-vue/es/_util/type';
+import type { ThemeConfig } from '@kaoniqiwa/trina-ui/es/config-provider/context';
+import type { VueNode } from '@kaoniqiwa/trina-ui/es/_util/type';
 
 export type Theme = {
   name: string;

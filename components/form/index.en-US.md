@@ -130,7 +130,7 @@ The second way is to wrap it with a custom component and call `useInjectFormItem
 ```html
 <script>
   // custom component
-  import { Form } from 'ant-design-vue';
+  import { Form } from '@kaoniqiwa/trina-ui';
   export default {
     name: 'custom-name',
     setup() {
@@ -201,10 +201,10 @@ See more advanced usage at [async-validator](https://github.com/yiminghe/async-v
 
 `useForm` is a method that can run independently of the Form component. It uses the Vue response mechanism to monitor and verify data, and returns the verification result. You can bind the verification result to any component, `Form. Item` only displays the results.
 
-The following versions need to be provided separately by `@ant-design-vue/use` library, it is not recommended to continue to use, you should upgrade to version 2.2+ as soon as possible
+The following versions need to be provided separately by `@@kaoniqiwa/trina-ui/use` library, it is not recommended to continue to use, you should upgrade to version 2.2+ as soon as possible
 
 ```ts
-import { Form } from 'ant-design-vue';
+import { Form } from '@kaoniqiwa/trina-ui';
 const useForm = Form.useForm;
 
 useForm(modelRef, ruleRef, [options]);

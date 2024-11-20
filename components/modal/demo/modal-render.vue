@@ -17,7 +17,7 @@ Custom modal content render. use `vueuse` implements draggable.
 </docs>
 <template>
   <div>
-    <a-button type="primary" @click="showModal">Open Modal</a-button>
+    <t-button type="primary" @click="showModal">Open Modal</t-button>
     <a-modal ref="modalRef" v-model:open="open" :wrap-style="{ overflow: 'hidden' }" @ok="handleOk">
       <p>Some contents...</p>
       <p>Some contents...</p>

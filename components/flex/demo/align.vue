@@ -23,10 +23,10 @@ Set align.
     <p>Select align :</p>
     <a-segmented v-model:value="alignItems" :options="alignOptions" />
     <a-flex :style="{ ...boxStyle }" :justify="justify" :align="alignItems">
-      <a-button type="primary">Primary</a-button>
-      <a-button type="primary">Primary</a-button>
-      <a-button type="primary">Primary</a-button>
-      <a-button type="primary">Primary</a-button>
+      <t-button type="primary">Primary</t-button>
+      <t-button type="primary">Primary</t-button>
+      <t-button type="primary">Primary</t-button>
+      <t-button type="primary">Primary</t-button>
     </a-flex>
   </a-flex>
 </template>
@@ -34,7 +34,7 @@ Set align.
 <script setup lang="ts">
 import { reactive, ref } from 'vue';
 import type { CSSProperties } from 'vue';
-import type { FlexProps } from 'ant-design-vue';
+import type { FlexProps } from '@kaoniqiwa/trina-ui';
 const justifyOptions = reactive<FlexProps['justify'][]>([
   'flex-start',
   'center',

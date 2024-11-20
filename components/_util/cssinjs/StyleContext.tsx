@@ -89,7 +89,7 @@ const StyleContextKey: InjectionKey<ShallowRef<Partial<StyleContextProps>>> =
 
 export type UseStyleProviderProps = Partial<StyleContextProps> | Ref<Partial<StyleContextProps>>;
 
-// fix: https://github.com/vueComponent/ant-design-vue/issues/7023
+// fix: https://github.com/kaoniqiwa/trina-ui/issues/7023
 const getCache = () => {
   const instance = getCurrentInstance();
   let cache: CacheEntity;
@@ -114,7 +114,7 @@ const defaultStyleContext: StyleContextProps = {
   defaultCache: true,
   hashPriority: 'low',
 };
-// fix: https://github.com/vueComponent/ant-design-vue/issues/6912
+// fix: https://github.com/kaoniqiwa/trina-ui/issues/6912
 export const useStyleInject = () => {
   const cache = getCache();
   return inject(StyleContextKey, shallowRef({ ...defaultStyleContext, cache }));

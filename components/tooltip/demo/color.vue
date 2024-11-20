@@ -21,13 +21,13 @@ We preset a series of colorful Tooltip styles for use in different situations.
     <a-divider orientation="left">Presets</a-divider>
     <div>
       <a-tooltip v-for="color in colors" :key="color" title="prompt text" :color="color">
-        <a-button>{{ color }}</a-button>
+        <t-button>{{ color }}</t-button>
       </a-tooltip>
     </div>
     <a-divider orientation="left">Custom</a-divider>
     <div>
       <a-tooltip v-for="color in customColors" :key="color" title="prompt text" :color="color">
-        <a-button>{{ color }}</a-button>
+        <t-button>{{ color }}</t-button>
       </a-tooltip>
     </div>
   </div>

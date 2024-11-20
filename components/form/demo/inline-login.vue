@@ -49,7 +49,7 @@ Inline login form is often used in navigation bar.
     </a-form-item>
 
     <a-form-item>
-      <a-button :disabled="disabled" type="primary" html-type="submit">Log in</a-button>
+      <t-button :disabled="disabled" type="primary" html-type="submit">Log in</t-button>
     </a-form-item>
   </a-form>
 </template>

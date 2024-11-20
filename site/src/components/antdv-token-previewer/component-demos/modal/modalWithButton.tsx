@@ -1,4 +1,4 @@
-import { Button, Modal } from 'ant-design-vue';
+import { Button, Modal } from '@kaoniqiwa/trina-ui';
 import { defineComponent, ref } from 'vue';
 import type { ComponentDemo } from '../../interface';
 

@@ -29,10 +29,10 @@ Set the size to `large` and `middle` by setting size to large and middle respect
     <br />
     <br />
     <a-space :size="size">
-      <a-button type="primary">Primary</a-button>
-      <a-button>Default</a-button>
-      <a-button type="dashed">Dashed</a-button>
-      <a-button type="link">Link</a-button>
+      <t-button type="primary">Primary</t-button>
+      <t-button>Default</t-button>
+      <t-button type="dashed">Dashed</t-button>
+      <t-button type="link">Link</t-button>
     </a-space>
   </div>
 </template>

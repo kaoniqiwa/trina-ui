@@ -59,7 +59,7 @@ export default defineComponent({
       const suffix = props.suffix ?? slots.suffix?.();
       const formatter = props.formatter ?? (slots.formatter as unknown as Formatter);
       // data-for-update just for update component
-      // https://github.com/vueComponent/ant-design-vue/pull/3170
+      // https://github.com/kaoniqiwa/trina-ui/pull/3170
       let valueNode: VueNode = (
         <StatisticNumber
           data-for-update={Date.now()}

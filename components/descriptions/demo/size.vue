@@ -27,7 +27,7 @@ Custom sizes to fit in a variety of containers.
     <br />
     <a-descriptions bordered title="Custom Size" :size="size">
       <template #extra>
-        <a-button type="primary">Edit</a-button>
+        <t-button type="primary">Edit</t-button>
       </template>
       <a-descriptions-item label="Product">Cloud Database</a-descriptions-item>
       <a-descriptions-item label="Billing">Prepaid</a-descriptions-item>
@@ -54,7 +54,7 @@ Custom sizes to fit in a variety of containers.
     <br />
     <a-descriptions title="Custom Size" :size="size">
       <template #extra>
-        <a-button type="primary">Edit</a-button>
+        <t-button type="primary">Edit</t-button>
       </template>
       <a-descriptions-item label="Product">Cloud Database</a-descriptions-item>
       <a-descriptions-item label="Billing">Prepaid</a-descriptions-item>
@@ -67,7 +67,7 @@ Custom sizes to fit in a variety of containers.
 </template>
 <script lang="ts" setup>
 import { ref } from 'vue';
-import type { DescriptionsProps } from 'ant-design-vue';
+import type { DescriptionsProps } from '@kaoniqiwa/trina-ui';
 const size = ref<DescriptionsProps['size']>('default');
 const onChange = (e: any) => {
   console.log('size checked', e.target.value);

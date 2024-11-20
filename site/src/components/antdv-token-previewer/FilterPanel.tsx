@@ -1,8 +1,8 @@
 import type { CSSProperties, PropType } from 'vue';
 import { defineComponent, toRefs, ref } from 'vue';
 import makeStyle from './utils/makeStyle';
-import classNames from 'ant-design-vue/es/_util/classNames';
-import { Segmented, Tag } from 'ant-design-vue';
+import classNames from '@kaoniqiwa/trina-ui/es/_util/classNames';
+import { Segmented, Tag } from '@kaoniqiwa/trina-ui';
 
 const useStyle = makeStyle('FilterPanel', token => ({
   '.previewer-filter-panel': {

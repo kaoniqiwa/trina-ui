@@ -19,7 +19,7 @@ The page you visited does not exist.
 <template>
   <a-result status="404" title="404" sub-title="Sorry, the page you visited does not exist.">
     <template #extra>
-      <a-button type="primary">Back Home</a-button>
+      <t-button type="primary">Back Home</t-button>
     </template>
   </a-result>
 </template>

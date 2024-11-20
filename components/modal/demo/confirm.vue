@@ -18,16 +18,16 @@ To use `confirm()` to show a confirmation modal dialog.
 
 <template>
   <a-space wrap>
-    <a-button @click="showConfirm">Confirm</a-button>
-    <a-button @click="showPromiseConfirm">With promise</a-button>
-    <a-button type="dashed" @click="showDeleteConfirm">Delete</a-button>
-    <a-button type="dashed" @click="showPropsConfirm">With extra props</a-button>
+    <t-button @click="showConfirm">Confirm</t-button>
+    <t-button @click="showPromiseConfirm">With promise</t-button>
+    <t-button type="dashed" @click="showDeleteConfirm">Delete</t-button>
+    <t-button type="dashed" @click="showPropsConfirm">With extra props</t-button>
   </a-space>
 </template>
 <script lang="ts" setup>
 import { ExclamationCircleOutlined } from '@ant-design/icons-vue';
 import { createVNode } from 'vue';
-import { Modal } from 'ant-design-vue';
+import { Modal } from '@kaoniqiwa/trina-ui';
 const showConfirm = () => {
   Modal.confirm({
     title: 'Do you Want to delete these items?',

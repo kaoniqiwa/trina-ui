@@ -27,7 +27,7 @@ Responsive columns.
   </a-table>
 </template>
 <script lang="ts" setup>
-import type { ColumnsType } from 'ant-design-vue/es/table/interface';
+import type { ColumnsType } from '@kaoniqiwa/trina-ui/es/table/interface';
 const columns: ColumnsType = [
   {
     title: 'Name (all screens)',

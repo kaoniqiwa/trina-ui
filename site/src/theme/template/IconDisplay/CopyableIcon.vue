@@ -14,7 +14,7 @@
 </template>
 <script>
 import * as AntdIcons from '@ant-design/icons-vue';
-import { Badge } from 'ant-design-vue';
+import { Badge } from '@kaoniqiwa/trina-ui';
 import { defineComponent } from 'vue';
 
 const allIcons = AntdIcons;

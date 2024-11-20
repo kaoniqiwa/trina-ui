@@ -28,12 +28,12 @@ Customize the dropdown menu via `dropdownRender`.
       <a-divider style="margin: 4px 0" />
       <a-space style="padding: 4px 8px">
         <a-input ref="inputRef" v-model:value="name" placeholder="Please enter item" />
-        <a-button type="text" @click="addItem">
+        <t-button type="text" @click="addItem">
           <template #icon>
             <plus-outlined />
           </template>
           Add item
-        </a-button>
+        </t-button>
       </a-space>
     </template>
   </a-select>

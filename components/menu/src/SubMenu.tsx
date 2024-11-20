@@ -321,7 +321,7 @@ export default defineComponent({
         );
       } else {
         // 包裹一层，保持结构一致，防止动画丢失
-        // https://github.com/vueComponent/ant-design-vue/issues/4325
+        // https://github.com/kaoniqiwa/trina-ui/issues/4325
         titleNode = () => <PopupTrigger v-slots={{ default: baseTitleNode }}></PopupTrigger>;
       }
       return (

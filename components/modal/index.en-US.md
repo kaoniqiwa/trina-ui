@@ -124,7 +124,7 @@ When you need using Context, you can use `contextHolder` which created by `Modal
   <!-- <component :is='contextHolder'/> -->
 </template>
 <script setup>
-  import { Modal } from 'ant-design-vue';
+  import { Modal } from '@kaoniqiwa/trina-ui';
   const [modal, contextHolder] = Modal.useModal();
 
   modal.confirm({
@@ -147,7 +147,7 @@ When you need context information (for example, using a globally registered comp
   <!-- <component :is='contextHolder'/> -->
 </template>
 <script setup>
-  import { Modal } from 'ant-design-vue';
+  import { Modal } from '@kaoniqiwa/trina-ui';
   const [modal, contextHolder] = Modal.useModal();
 
   modal.confirm({

@@ -140,7 +140,7 @@ export default defineComponent<BodyRowProps<unknown>>({
             if (column.customCell) {
               additionalCellProps = column.customCell(record, index, column);
             }
-            // not use slot to fix https://github.com/vueComponent/ant-design-vue/issues/5295
+            // not use slot to fix https://github.com/kaoniqiwa/trina-ui/issues/5295
             const appendNode =
               colIndex === (expandIconColumnIndex || 0) && nestExpandable.value ? (
                 <>

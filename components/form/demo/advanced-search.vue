@@ -43,8 +43,8 @@ Because the width of label is not fixed, you may need to adjust it by customizin
       </a-row>
       <a-row>
         <a-col :span="24" style="text-align: right">
-          <a-button type="primary" html-type="submit">Search</a-button>
-          <a-button style="margin: 0 8px" @click="() => formRef.resetFields()">Clear</a-button>
+          <t-button type="primary" html-type="submit">Search</t-button>
+          <t-button style="margin: 0 8px" @click="() => formRef.resetFields()">Clear</t-button>
           <a style="font-size: 12px" @click="expand = !expand">
             <template v-if="expand">
               <UpOutlined />
@@ -63,7 +63,7 @@ Because the width of label is not fixed, you may need to adjust it by customizin
 <script lang="ts" setup>
 import { reactive, ref } from 'vue';
 import { DownOutlined, UpOutlined } from '@ant-design/icons-vue';
-import type { FormInstance } from 'ant-design-vue';
+import type { FormInstance } from '@kaoniqiwa/trina-ui';
 const expand = ref(false);
 const formRef = ref<FormInstance>();
 const formState = reactive({});

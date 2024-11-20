@@ -1,5 +1,5 @@
 import { defineComponent } from 'vue';
-import { Menu, theme } from 'ant-design-vue';
+import { Menu, theme } from '@kaoniqiwa/trina-ui';
 
 import items from './data';
 

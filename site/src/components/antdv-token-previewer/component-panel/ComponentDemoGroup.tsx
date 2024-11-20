@@ -1,7 +1,7 @@
 import type { CSSProperties, PropType } from 'vue';
 import { defineComponent, toRefs } from 'vue';
-import { ConfigProvider, Tooltip } from 'ant-design-vue';
-import classNames from 'ant-design-vue/es/_util/classNames';
+import { ConfigProvider, Tooltip } from '@kaoniqiwa/trina-ui';
+import classNames from '@kaoniqiwa/trina-ui/es/_util/classNames';
 import ComponentDemos from '../component-demos';
 import type { ComponentDemo, MutableTheme, TokenName } from '../interface';
 import { useInjectLocaleContext } from '../locale';

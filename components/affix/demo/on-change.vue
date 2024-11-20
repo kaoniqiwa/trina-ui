@@ -18,7 +18,7 @@ Callback with affixed state.
 
 <template>
   <a-affix :offset-top="120" @change="change">
-    <a-button>120px to affix top</a-button>
+    <t-button>120px to affix top</t-button>
   </a-affix>
 </template>
 <script lang="ts" setup>

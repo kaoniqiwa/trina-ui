@@ -1,4 +1,4 @@
-import { Card, Space } from 'ant-design-vue';
+import { Card, Space } from '@kaoniqiwa/trina-ui';
 import { defineComponent } from 'vue';
 
 import Alert from '../component-demos/alert/warning';

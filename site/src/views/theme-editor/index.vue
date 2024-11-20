@@ -31,15 +31,15 @@
               </template>
             </Suspense>
           </a-modal>
-          <a-button class="theme-editor-header-actions" @click="handleExport">
+          <t-button class="theme-editor-header-actions" @click="handleExport">
             {{ locale.export }}
-          </a-button>
-          <a-button class="theme-editor-header-actions" @click="handleEditConfig">
+          </t-button>
+          <t-button class="theme-editor-header-actions" @click="handleEditConfig">
             {{ locale.edit }}
-          </a-button>
-          <a-button type="primary" class="theme-editor-header-actions" @click="handleSave">
+          </t-button>
+          <t-button type="primary" class="theme-editor-header-actions" @click="handleSave">
             {{ locale.save }}
-          </a-button>
+          </t-button>
         </div>
       </div>
       <ThemeEditor
@@ -54,7 +54,7 @@
 
 <script lang="ts">
 import { defineComponent, defineAsyncComponent, ref, watch, onMounted, nextTick } from 'vue';
-import { message } from 'ant-design-vue';
+import { message } from '@kaoniqiwa/trina-ui';
 import { useLocale } from '../../i18n';
 import locales from './locales';
 
@@ -65,7 +65,7 @@ import { enUS, ThemeEditor, zhCN } from '../../components/antdv-token-previewer'
 
 import type { ThemeConfig } from '../../../../components/config-provider/context';
 
-const ANT_DESIGN_VUE_V4_THEME_EDITOR_THEME = 'ant-design-vue-v4-theme-editor-theme';
+const ANT_DESIGN_VUE_V4_THEME_EDITOR_THEME = '@kaoniqiwa/trina-ui-v4-theme-editor-theme';
 
 function isObject(target: any) {
   return Object.prototype.toString.call(target) === '[object Object]';

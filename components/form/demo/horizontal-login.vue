@@ -33,13 +33,13 @@ Inline login form is often used in navigation bar.
       </a-input>
     </a-form-item>
     <a-form-item>
-      <a-button
+      <t-button
         type="primary"
         html-type="submit"
         :disabled="formState.user === '' || formState.password === ''"
       >
         Log in
-      </a-button>
+      </t-button>
     </a-form-item>
   </a-form>
 </template>
@@ -47,7 +47,7 @@ Inline login form is often used in navigation bar.
 import { reactive } from 'vue';
 import { UserOutlined, LockOutlined } from '@ant-design/icons-vue';
 import type { UnwrapRef } from 'vue';
-import type { FormProps } from 'ant-design-vue';
+import type { FormProps } from '@kaoniqiwa/trina-ui';
 
 interface FormState {
   user: string;

@@ -18,9 +18,9 @@ You can use `centered`,`style.top` or other styles to set position of modal dial
 
 <template>
   <div id="components-modal-demo-position">
-    <a-button type="primary" @click="setModal1Visible(true)">
+    <t-button type="primary" @click="setModal1Visible(true)">
       Display a modal dialog at 20px to Top
-    </a-button>
+    </t-button>
     <a-modal
       v-model:open="modal1Visible"
       title="20px to Top"
@@ -33,9 +33,9 @@ You can use `centered`,`style.top` or other styles to set position of modal dial
     </a-modal>
     <br />
     <br />
-    <a-button type="primary" @click="modal2Visible = true">
+    <t-button type="primary" @click="modal2Visible = true">
       Vertically centered modal dialog
-    </a-button>
+    </t-button>
     <a-modal
       v-model:open="modal2Visible"
       title="Vertically centered modal dialog"

@@ -31,7 +31,7 @@ Render in current dom. custom container, check `getContainer`.
   >
     Render in this
     <div style="margin-top: 16px">
-      <a-button type="primary" @click="showDrawer">Open</a-button>
+      <t-button type="primary" @click="showDrawer">Open</t-button>
     </div>
     <a-drawer
       title="Basic Drawer"

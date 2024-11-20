@@ -1,10 +1,10 @@
 import type { PropType } from 'vue';
 import { defineComponent, toRefs, ref } from 'vue';
-import type { CardProps } from 'ant-design-vue';
-import { Button, Card } from 'ant-design-vue';
+import type { CardProps } from '@kaoniqiwa/trina-ui';
+import { Button, Card } from '@kaoniqiwa/trina-ui';
 import { Control } from '../icons';
 import makeStyle from '../utils/makeStyle';
-import classNames from 'ant-design-vue/es/_util/classNames';
+import classNames from '@kaoniqiwa/trina-ui/es/_util/classNames';
 import type { MutableTheme, TokenName } from '../interface';
 import ComponentTokenDrawer from './ComponentTokenDrawer';
 

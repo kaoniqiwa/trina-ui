@@ -24,11 +24,11 @@ Compact Mode for form component.
     </a-space-compact>
     <a-space-compact block size="small">
       <a-input :style="{ width: 'calc(100% - 200px)' }" default-value="https://ant.design" />
-      <a-button type="primary">Submit</a-button>
+      <t-button type="primary">Submit</t-button>
     </a-space-compact>
     <a-space-compact block>
       <a-input :style="{ width: 'calc(100% - 200px)' }" default-value="https://ant.design" />
-      <a-button type="primary">Submit</a-button>
+      <t-button type="primary">Submit</t-button>
     </a-space-compact>
     <a-space-compact block>
       <a-input
@@ -36,9 +36,9 @@ Compact Mode for form component.
         default-value="git@github.com:ant-design/ant-design.git"
       />
       <a-tooltip title="copy git url">
-        <a-button>
+        <t-button>
           <CopyOutlined />
-        </a-button>
+        </t-button>
       </a-tooltip>
     </a-space-compact>
     <a-space-compact block>
@@ -75,7 +75,7 @@ Compact Mode for form component.
     <a-space-compact block>
       <a-range-picker :style="{ width: '70%' }" />
       <a-input :style="{ width: '30%' }" default-value="input content" />
-      <a-button type="primary">查询</a-button>
+      <t-button type="primary">查询</t-button>
     </a-space-compact>
     <a-space-compact block>
       <a-input :style="{ width: '30%' }" default-value="input content" />
@@ -181,7 +181,7 @@ Compact Mode for form component.
         tree-default-expand-all
         :tree-data="treeData"
       ></a-tree-select>
-      <a-button type="primary">Submit</a-button>
+      <t-button type="primary">Submit</t-button>
     </a-space-compact>
   </a-space>
 </template>
@@ -189,7 +189,7 @@ Compact Mode for form component.
 <script lang="ts" setup>
 import { ref } from 'vue';
 import { CopyOutlined } from '@ant-design/icons-vue';
-import { TreeSelectProps } from 'ant-design-vue';
+import { TreeSelectProps } from '@kaoniqiwa/trina-ui';
 
 const treeData = ref<TreeSelectProps['treeData']>([
   {

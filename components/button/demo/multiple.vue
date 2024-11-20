@@ -17,8 +17,8 @@ If you need several buttons, we recommend that you use 1 primary button + n seco
 
 <template>
   <a-space>
-    <a-button type="primary">Primary</a-button>
-    <a-button>secondary</a-button>
+    <t-button type="primary">Primary</t-button>
+    <t-button>secondary</t-button>
     <a-dropdown>
       <template #overlay>
         <a-menu @click="handleMenuClick">
@@ -27,17 +27,17 @@ If you need several buttons, we recommend that you use 1 primary button + n seco
           <a-menu-item key="3">3rd item</a-menu-item>
         </a-menu>
       </template>
-      <a-button>
+      <t-button>
         Actions
         <DownOutlined />
-      </a-button>
+      </t-button>
     </a-dropdown>
   </a-space>
 </template>
 
 <script lang="ts" setup>
 import { DownOutlined } from '@ant-design/icons-vue';
-import type { MenuProps } from 'ant-design-vue';
+import type { MenuProps } from '@kaoniqiwa/trina-ui';
 const handleMenuClick: MenuProps['onClick'] = e => {
   console.log('click', e);
 };

@@ -1,6 +1,6 @@
 import { defineComponent } from 'vue';
 import { UploadOutlined } from '@ant-design/icons-vue';
-import { Upload, Button } from 'ant-design-vue';
+import { Upload, Button } from '@kaoniqiwa/trina-ui';
 
 import type { ComponentDemo } from '../../interface';
 

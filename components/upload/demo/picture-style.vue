@@ -22,10 +22,10 @@ If uploaded file is a picture, the thumbnail can be shown.
       action="https://www.mocky.io/v2/5cc8019d300000980a055e76"
       list-type="picture"
     >
-      <a-button>
+      <t-button>
         <upload-outlined></upload-outlined>
         upload
-      </a-button>
+      </t-button>
     </a-upload>
     <br />
     <br />
@@ -35,10 +35,10 @@ If uploaded file is a picture, the thumbnail can be shown.
       list-type="picture"
       class="upload-list-inline"
     >
-      <a-button>
+      <t-button>
         <upload-outlined></upload-outlined>
         upload
-      </a-button>
+      </t-button>
     </a-upload>
   </div>
 </template>
@@ -46,7 +46,7 @@ If uploaded file is a picture, the thumbnail can be shown.
 <script lang="ts" setup>
 import { ref } from 'vue';
 import { UploadOutlined } from '@ant-design/icons-vue';
-import type { UploadProps } from 'ant-design-vue';
+import type { UploadProps } from '@kaoniqiwa/trina-ui';
 const fileList = ref<UploadProps['fileList']>([
   {
     uid: '-1',

@@ -22,7 +22,7 @@ Custom icon.
       <smile-twoTone />
     </template>
     <template #extra>
-      <a-button type="primary">Next</a-button>
+      <t-button type="primary">Next</t-button>
     </template>
   </a-result>
 </template>

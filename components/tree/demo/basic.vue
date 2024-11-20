@@ -31,7 +31,7 @@ The most basic usage, tell you how to use checkable, selectable, disabled, defau
 </template>
 <script lang="ts" setup>
 import { ref, watch } from 'vue';
-import type { TreeProps } from 'ant-design-vue';
+import type { TreeProps } from '@kaoniqiwa/trina-ui';
 
 const treeData: TreeProps['treeData'] = [
   {

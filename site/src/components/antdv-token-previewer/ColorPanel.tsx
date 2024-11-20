@@ -1,6 +1,6 @@
-import type { InputProps } from 'ant-design-vue';
-import { ConfigProvider, Input, InputNumber, Select, theme } from 'ant-design-vue';
-import classNames from 'ant-design-vue/es/_util/classNames';
+import type { InputProps } from '@kaoniqiwa/trina-ui';
+import { ConfigProvider, Input, InputNumber, Select, theme } from '@kaoniqiwa/trina-ui';
+import classNames from '@kaoniqiwa/trina-ui/es/_util/classNames';
 import type { PropType } from 'vue';
 import { defineComponent, watchEffect, watch, computed, toRefs, ref } from 'vue';
 import { HexColorPicker, RgbaColorPicker } from '../vue-colorful';

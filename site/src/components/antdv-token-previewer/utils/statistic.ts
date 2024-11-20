@@ -1,4 +1,4 @@
-import tokenStatistic from 'ant-design-vue/es/version/token.json';
+import tokenStatistic from '@kaoniqiwa/trina-ui/es/version/token.json';
 
 const tokenRelatedComponents: {
   [key in string]?: string[];

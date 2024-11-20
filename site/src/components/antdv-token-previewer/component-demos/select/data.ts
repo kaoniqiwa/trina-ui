@@ -1,4 +1,4 @@
-import type { SelectProps } from 'ant-design-vue';
+import type { SelectProps } from '@kaoniqiwa/trina-ui';
 
 const options: SelectProps['options'] = [];
 

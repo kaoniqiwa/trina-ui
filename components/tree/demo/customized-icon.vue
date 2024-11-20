@@ -36,7 +36,7 @@ You can customize icons for different nodes.
 <script lang="ts" setup>
 import { ref } from 'vue';
 import { DownOutlined, SmileOutlined, FrownOutlined, FrownFilled } from '@ant-design/icons-vue';
-import type { TreeProps } from 'ant-design-vue';
+import type { TreeProps } from '@kaoniqiwa/trina-ui';
 
 const treeData: TreeProps['treeData'] = [
   {

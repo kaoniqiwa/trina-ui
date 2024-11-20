@@ -52,7 +52,7 @@ The height of the input field for the select defaults to 32px. If size is set to
 </template>
 <script lang="ts" setup>
 import { ref } from 'vue';
-import type { SelectProps } from 'ant-design-vue';
+import type { SelectProps } from '@kaoniqiwa/trina-ui';
 const popupScroll = () => {
   console.log('popupScroll');
 };

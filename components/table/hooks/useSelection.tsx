@@ -191,7 +191,7 @@ export default function useSelection<RecordType>(
 
   // // Reset if rowSelection reset
   // we use computed to reset, donot need setMergedSelectedKeys again like react
-  // https://github.com/vueComponent/ant-design-vue/issues/4885
+  // https://github.com/kaoniqiwa/trina-ui/issues/4885
   // watchEffect(() => {
   //   if (!rowSelectionRef.value) {
   //     setMergedSelectedKeys([]);

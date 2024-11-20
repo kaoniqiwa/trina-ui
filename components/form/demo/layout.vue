@@ -31,7 +31,7 @@ There are three layout for form: `horizontal`, `vertical`, `inline`.
       <a-input v-model:value="formState.fieldB" placeholder="input placeholder" />
     </a-form-item>
     <a-form-item :wrapper-col="buttonItemLayout.wrapperCol">
-      <a-button type="primary">Submit</a-button>
+      <t-button type="primary">Submit</t-button>
     </a-form-item>
   </a-form>
 </template>

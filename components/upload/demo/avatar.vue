@@ -41,8 +41,8 @@ Click to upload user's avatar, and validate size and format of picture with `bef
 <script lang="ts" setup>
 import { ref } from 'vue';
 import { PlusOutlined, LoadingOutlined } from '@ant-design/icons-vue';
-import { message } from 'ant-design-vue';
-import type { UploadChangeParam, UploadProps } from 'ant-design-vue';
+import { message } from '@kaoniqiwa/trina-ui';
+import type { UploadChangeParam, UploadProps } from '@kaoniqiwa/trina-ui';
 
 function getBase64(img: Blob, callback: (base64Url: string) => void) {
   const reader = new FileReader();

@@ -46,7 +46,7 @@ Use `treeLine` to show the line style.
 </template>
 <script lang="ts" setup>
 import { ref, watch } from 'vue';
-import type { TreeSelectProps } from 'ant-design-vue';
+import type { TreeSelectProps } from '@kaoniqiwa/trina-ui';
 
 const treeLine = ref(true);
 const showLeafIcon = ref(false);

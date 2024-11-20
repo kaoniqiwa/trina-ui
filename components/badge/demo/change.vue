@@ -20,14 +20,14 @@ The count will be animated as it changes.
     <a-badge :count="count">
       <a-avatar shape="square" size="large" />
     </a-badge>
-    <a-button-group>
-      <a-button @click="decline">
+    <t-button-group>
+      <t-button @click="decline">
         <minus-outlined />
-      </a-button>
-      <a-button @click="increase">
+      </t-button>
+      <t-button @click="increase">
         <plus-outlined />
-      </a-button>
-    </a-button-group>
+      </t-button>
+    </t-button-group>
   </div>
   <a-divider />
   <a-badge :dot="show">

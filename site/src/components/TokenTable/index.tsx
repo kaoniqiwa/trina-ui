@@ -1,9 +1,9 @@
 import { defineComponent, toRefs, computed } from 'vue';
 import type { PropType } from 'vue';
-import type { TableProps } from 'ant-design-vue';
-import { Table } from 'ant-design-vue';
+import type { TableProps } from '@kaoniqiwa/trina-ui';
+import { Table } from '@kaoniqiwa/trina-ui';
 import { getDesignToken } from '../antdv-token-previewer';
-import tokenMeta from 'ant-design-vue/es/version/token-meta.json';
+import tokenMeta from '@kaoniqiwa/trina-ui/es/version/token-meta.json';
 import { useLocale } from '../../i18n';
 import useSiteToken from '../../hooks/useSiteToken';
 import ColorChunk from '../ColorChunk';

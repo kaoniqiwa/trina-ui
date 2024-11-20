@@ -18,7 +18,7 @@ A way to download QRCode.
   <a-qrcode ref="qrcodeCanvasRef" value="http://www.antdv.com" />
   <br />
   <br />
-  <a-button type="primary" @click="dowloadChange">Downlaod</a-button>
+  <t-button type="primary" @click="dowloadChange">Downlaod</t-button>
 </template>
 
 <script lang="ts" setup>

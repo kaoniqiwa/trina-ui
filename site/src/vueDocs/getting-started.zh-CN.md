@@ -92,7 +92,7 @@ app.config.globalProperties.$message = message;
 
 ```html
 <template>
-  <a-button>Add</a-button>
+  <t-button>Add</t-button>
 </template>
 <script>
   import { Button } from 'trina-design-vue';

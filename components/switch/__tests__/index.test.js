@@ -39,7 +39,7 @@ describe('Switch', () => {
       },
     });
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [ant-design-vue: Switch] `value` is not validate prop, do you mean `checked`?',
+      'Warning: [@kaoniqiwa/trina-ui: Switch] `value` is not validate prop, do you mean `checked`?',
     );
     errorSpy.mockRestore();
   });

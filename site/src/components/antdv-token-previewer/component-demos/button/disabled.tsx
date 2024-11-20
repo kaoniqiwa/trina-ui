@@ -1,5 +1,5 @@
 import { defineComponent } from 'vue';
-import { Button, Space } from 'ant-design-vue';
+import { Button, Space } from '@kaoniqiwa/trina-ui';
 import type { ComponentDemo } from '../../interface';
 
 const Demo = defineComponent({

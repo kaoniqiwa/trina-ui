@@ -23,19 +23,19 @@ There are 12 placement options available.
         <template #title>
           <span>prompt text</span>
         </template>
-        <a-button>TL</a-button>
+        <t-button>TL</t-button>
       </a-tooltip>
       <a-tooltip placement="top">
         <template #title>
           <span>prompt text</span>
         </template>
-        <a-button>Top</a-button>
+        <t-button>Top</t-button>
       </a-tooltip>
       <a-tooltip placement="topRight">
         <template #title>
           <span>prompt text</span>
         </template>
-        <a-button>TR</a-button>
+        <t-button>TR</t-button>
       </a-tooltip>
     </div>
     <div :style="{ width: `${buttonWidth}px`, float: 'left' }">
@@ -43,19 +43,19 @@ There are 12 placement options available.
         <template #title>
           <span>prompt text</span>
         </template>
-        <a-button>LT</a-button>
+        <t-button>LT</t-button>
       </a-tooltip>
       <a-tooltip placement="left">
         <template #title>
           <span>prompt text</span>
         </template>
-        <a-button>Left</a-button>
+        <t-button>Left</t-button>
       </a-tooltip>
       <a-tooltip placement="leftBottom">
         <template #title>
           <span>prompt text</span>
         </template>
-        <a-button>LB</a-button>
+        <t-button>LB</t-button>
       </a-tooltip>
     </div>
     <div :style="{ width: `${buttonWidth}px`, marginLeft: `${buttonWidth * 4 + 24}px` }">
@@ -63,19 +63,19 @@ There are 12 placement options available.
         <template #title>
           <span>prompt text</span>
         </template>
-        <a-button>RT</a-button>
+        <t-button>RT</t-button>
       </a-tooltip>
       <a-tooltip placement="right">
         <template #title>
           <span>prompt text</span>
         </template>
-        <a-button>Right</a-button>
+        <t-button>Right</t-button>
       </a-tooltip>
       <a-tooltip placement="rightBottom">
         <template #title>
           <span>prompt text</span>
         </template>
-        <a-button>RB</a-button>
+        <t-button>RB</t-button>
       </a-tooltip>
     </div>
     <div :style="{ marginLeft: `${buttonWidth}px`, clear: 'both', whiteSpace: 'nowrap' }">
@@ -83,19 +83,19 @@ There are 12 placement options available.
         <template #title>
           <span>prompt text</span>
         </template>
-        <a-button>BL</a-button>
+        <t-button>BL</t-button>
       </a-tooltip>
       <a-tooltip placement="bottom">
         <template #title>
           <span>prompt text</span>
         </template>
-        <a-button>Bottom</a-button>
+        <t-button>Bottom</t-button>
       </a-tooltip>
       <a-tooltip placement="bottomRight">
         <template #title>
           <span>prompt text</span>
         </template>
-        <a-button>BR</a-button>
+        <t-button>BR</t-button>
       </a-tooltip>
     </div>
   </div>

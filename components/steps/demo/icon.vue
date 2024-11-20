@@ -25,7 +25,7 @@ import {
   LoadingOutlined,
   SmileOutlined,
 } from '@ant-design/icons-vue';
-import { StepProps } from 'ant-design-vue';
+import { StepProps } from '@kaoniqiwa/trina-ui';
 const items = [
   {
     title: 'Login',

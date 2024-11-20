@@ -22,13 +22,13 @@ Controls must injects `useInjectFormItemContext` and calls the corresponding met
       <price-input v-model:value="formState.price" />
     </a-form-item>
     <a-form-item>
-      <a-button type="primary" html-type="submit">Submit</a-button>
+      <t-button type="primary" html-type="submit">Submit</t-button>
     </a-form-item>
   </a-form>
 </template>
 <script lang="ts" setup>
 import { reactive } from 'vue';
-// sourceCode https://github.com/vueComponent/ant-design-vue/blob/cb3c002e17f0f4f5b3e8d01846069da0e2645aff/components/form/demo/price-input.vue
+// sourceCode https://github.com/kaoniqiwa/trina-ui/blob/cb3c002e17f0f4f5b3e8d01846069da0e2645aff/components/form/demo/price-input.vue
 import PriceInput from './price-input.vue';
 import type { Currency } from './price-input.vue';
 

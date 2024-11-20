@@ -20,7 +20,7 @@ Click the button to toggle between available and disabled states.
   <div>
     <a-input-number v-model:value="value" :min="1" :max="10" :disabled="disabled" />
     <div style="margin-top: 20px">
-      <a-button type="primary" @click="toggle">Toggle disabled</a-button>
+      <t-button type="primary" @click="toggle">Toggle disabled</t-button>
     </div>
   </div>
 </template>

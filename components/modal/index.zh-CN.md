@@ -128,7 +128,7 @@ router.beforeEach((to, from, next) => {
   <!-- <component :is='contextHolder'/> -->
 </template>
 <script setup>
-  import { Modal } from 'ant-design-vue';
+  import { Modal } from '@kaoniqiwa/trina-ui';
   const [modal, contextHolder] = Modal.useModal();
 
   modal.confirm({
@@ -151,7 +151,7 @@ router.beforeEach((to, from, next) => {
   <!-- <component :is='contextHolder'/> -->
 </template>
 <script setup>
-  import { Modal } from 'ant-design-vue';
+  import { Modal } from '@kaoniqiwa/trina-ui';
   const [modal, contextHolder] = Modal.useModal();
 
   modal.confirm({

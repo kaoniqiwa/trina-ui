@@ -20,7 +20,7 @@ Custom action.
   <a-space direction="vertical" style="width: 100%">
     <a-alert message="Success Tips" type="success" show-icon closable>
       <template #action>
-        <a-button size="small" type="text">UNDO</a-button>
+        <t-button size="small" type="text">UNDO</t-button>
       </template>
     </a-alert>
     <a-alert
@@ -30,13 +30,13 @@ Custom action.
       type="error"
     >
       <template #action>
-        <a-button size="small" danger>Detail</a-button>
+        <t-button size="small" danger>Detail</t-button>
       </template>
     </a-alert>
     <a-alert message="Warning Text" type="warning" closable>
       <template #action>
         <a-space>
-          <a-button size="small" type="ghost">Done</a-button>
+          <t-button size="small" type="ghost">Done</t-button>
         </a-space>
       </template>
     </a-alert>
@@ -48,8 +48,8 @@ Custom action.
     >
       <template #action>
         <a-space direction="vertical">
-          <a-button size="small" type="primary">Accept</a-button>
-          <a-button size="small" danger type="ghost">Decline</a-button>
+          <t-button size="small" type="primary">Accept</t-button>
+          <t-button size="small" danger type="ghost">Decline</t-button>
         </a-space>
       </template>
     </a-alert>

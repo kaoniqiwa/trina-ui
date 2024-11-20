@@ -18,11 +18,11 @@ Use `message.useMessage` to get `contextHolder` with context accessible issue. P
 
 <template>
   <context-holder />
-  <a-button type="primary" @click="info">Display normal message</a-button>
+  <t-button type="primary" @click="info">Display normal message</t-button>
 </template>
 
 <script lang="ts" setup>
-import { message } from 'ant-design-vue';
+import { message } from '@kaoniqiwa/trina-ui';
 const [messageApi, contextHolder] = message.useMessage();
 
 const info = () => {

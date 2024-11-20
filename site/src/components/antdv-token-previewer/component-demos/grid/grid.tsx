@@ -1,4 +1,4 @@
-import { Row, Col } from 'ant-design-vue';
+import { Row, Col } from '@kaoniqiwa/trina-ui';
 import makeStyle from '../../utils/makeStyle';
 import type { ComponentDemo } from '../../interface';
 import { defineComponent } from 'vue';

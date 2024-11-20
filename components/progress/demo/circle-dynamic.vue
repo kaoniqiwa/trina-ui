@@ -19,14 +19,14 @@ A dynamic progress bar is better.
 <template>
   <div>
     <a-progress type="circle" :percent="defaultPercent" />
-    <a-button-group>
-      <a-button @click="decline">
+    <t-button-group>
+      <t-button @click="decline">
         <template #icon><minus-outlined /></template>
-      </a-button>
-      <a-button @click="increase">
+      </t-button>
+      <t-button @click="increase">
         <template #icon><plus-outlined /></template>
-      </a-button>
-    </a-button-group>
+      </t-button>
+    </t-button-group>
   </div>
 </template>
 <script lang="ts" setup>

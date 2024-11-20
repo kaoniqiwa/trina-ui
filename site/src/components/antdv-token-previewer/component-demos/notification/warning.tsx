@@ -1,5 +1,5 @@
 import { defineComponent } from 'vue';
-import { notification, Button } from 'ant-design-vue';
+import { notification, Button } from '@kaoniqiwa/trina-ui';
 import type { ComponentDemo } from '../../interface';
 
 const Demo = defineComponent({

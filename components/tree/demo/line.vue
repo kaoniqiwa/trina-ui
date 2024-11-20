@@ -51,7 +51,7 @@ Tree with connected line between nodes, turn on by `showLine`, customize the pre
 <script lang="ts" setup>
 import { ref } from 'vue';
 import { CarryOutOutlined, SmileTwoTone } from '@ant-design/icons-vue';
-import type { TreeProps } from 'ant-design-vue';
+import type { TreeProps } from '@kaoniqiwa/trina-ui';
 const showLine = ref<boolean>(true);
 const showIcon = ref<boolean>(false);
 const treeData = ref<TreeProps['treeData']>([

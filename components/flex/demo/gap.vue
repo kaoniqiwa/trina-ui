@@ -28,10 +28,10 @@ Set the `gap` between elements, which has three preset sizes: `small`, `middle`,
       <a-slider v-model:value="customGapSize" />
     </template>
     <a-flex :gap="gapSize !== 'customize' ? gapSize : customGapSize">
-      <a-button type="primary">Primary</a-button>
-      <a-button>Default</a-button>
-      <a-button type="dashed">Dashed</a-button>
-      <a-button type="link">Link</a-button>
+      <t-button type="primary">Primary</t-button>
+      <t-button>Default</t-button>
+      <t-button type="dashed">Dashed</t-button>
+      <t-button type="link">Link</t-button>
     </a-flex>
   </a-flex>
 </template>

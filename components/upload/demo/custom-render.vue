@@ -23,10 +23,10 @@ Custom render by using `itemRender` slot.
     :headers="headers"
     @change="handleChange"
   >
-    <a-button>
+    <t-button>
       <upload-outlined></upload-outlined>
       Click to Upload
-    </a-button>
+    </t-button>
     <template #itemRender="{ file, actions }">
       <a-space>
         <span :style="file.status === 'error' ? 'color: red' : ''">{{ file.name }}</span>
@@ -38,9 +38,9 @@ Custom render by using `itemRender` slot.
 </template>
 <script lang="ts" setup>
 import { ref } from 'vue';
-import { message } from 'ant-design-vue';
+import { message } from '@kaoniqiwa/trina-ui';
 import { UploadOutlined } from '@ant-design/icons-vue';
-import type { UploadChangeParam, UploadProps } from 'ant-design-vue';
+import type { UploadChangeParam, UploadProps } from '@kaoniqiwa/trina-ui';
 
 const handleChange = (info: UploadChangeParam) => {
   if (info.file.status !== 'uploading') {

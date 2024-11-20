@@ -1,5 +1,5 @@
 import { defineComponent } from 'vue';
-import { DatePicker, Space } from 'ant-design-vue';
+import { DatePicker, Space } from '@kaoniqiwa/trina-ui';
 import type { ComponentDemo } from '../../interface';
 
 const Demo = defineComponent({

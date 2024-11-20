@@ -37,7 +37,7 @@ Make it pop up under some conditions.
 </template>
 <script lang="ts" setup>
 import { ref } from 'vue';
-import { message } from 'ant-design-vue';
+import { message } from '@kaoniqiwa/trina-ui';
 const visible = ref<boolean>(false);
 const condition = ref<boolean>(true);
 

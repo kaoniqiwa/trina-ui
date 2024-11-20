@@ -19,40 +19,40 @@ Debug usage
 <template>
   <div id="components-button-demo-button-group">
     <h4>Basic</h4>
-    <a-button-group>
-      <a-button>Cancel</a-button>
-      <a-button type="primary">OK</a-button>
-    </a-button-group>
-    <a-button-group>
-      <a-button disabled>L</a-button>
-      <a-button disabled>M</a-button>
-      <a-button disabled>R</a-button>
-    </a-button-group>
-    <a-button-group>
-      <a-button type="primary">L</a-button>
-      <a-button>M</a-button>
-      <a-button>M</a-button>
-      <a-button type="dashed">R</a-button>
-    </a-button-group>
+    <t-button-group>
+      <t-button>Cancel</t-button>
+      <t-button type="primary">OK</t-button>
+    </t-button-group>
+    <t-button-group>
+      <t-button disabled>L</t-button>
+      <t-button disabled>M</t-button>
+      <t-button disabled>R</t-button>
+    </t-button-group>
+    <t-button-group>
+      <t-button type="primary">L</t-button>
+      <t-button>M</t-button>
+      <t-button>M</t-button>
+      <t-button type="dashed">R</t-button>
+    </t-button-group>
     <h4>With Icon</h4>
-    <a-button-group>
-      <a-button type="primary">
+    <t-button-group>
+      <t-button type="primary">
         <LeftOutlined />
         Go back
-      </a-button>
-      <a-button type="primary">
+      </t-button>
+      <t-button type="primary">
         Go forward
         <RightOutlined />
-      </a-button>
-    </a-button-group>
-    <a-button-group>
-      <a-button type="primary">
+      </t-button>
+    </t-button-group>
+    <t-button-group>
+      <t-button type="primary">
         <template #icon><CloudOutlined /></template>
-      </a-button>
-      <a-button type="primary">
+      </t-button>
+      <t-button type="primary">
         <template #icon><CloudDownloadOutlined /></template>
-      </a-button>
-    </a-button-group>
+      </t-button>
+    </t-button-group>
   </div>
 </template>
 

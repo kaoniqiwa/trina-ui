@@ -1,4 +1,4 @@
-import type { MenuProps } from 'ant-design-vue';
+import type { MenuProps } from '@kaoniqiwa/trina-ui';
 
 import { AppstoreOutlined, MailOutlined, SettingOutlined } from '@ant-design/icons-vue';
 

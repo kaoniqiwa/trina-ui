@@ -17,7 +17,7 @@ Open a new drawer on top of an existing drawer to handle multi branch tasks.
 </docs>
 
 <template>
-  <a-button type="primary" @click="showDrawer">Open</a-button>
+  <t-button type="primary" @click="showDrawer">Open</t-button>
   <a-drawer
     v-model:open="open"
     title="Multi-level drawer"
@@ -26,14 +26,14 @@ Open a new drawer on top of an existing drawer to handle multi branch tasks.
     :footer-style="{ textAlign: 'right' }"
     @close="onClose"
   >
-    <a-button type="primary" @click="showChildrenDrawer">Two-level drawer</a-button>
+    <t-button type="primary" @click="showChildrenDrawer">Two-level drawer</t-button>
     <a-drawer v-model:open="childrenDrawer" title="Two-level Drawer" width="320" :closable="false">
-      <a-button type="primary" @click="showChildrenDrawer">This is two-level drawer</a-button>
+      <t-button type="primary" @click="showChildrenDrawer">This is two-level drawer</t-button>
     </a-drawer>
 
     <template #footer>
-      <a-button style="margin-right: 8px" @click="onClose">Cancel</a-button>
-      <a-button type="primary" @click="onClose">Submit</a-button>
+      <t-button style="margin-right: 8px" @click="onClose">Cancel</t-button>
+      <t-button type="primary" @click="onClose">Submit</t-button>
     </template>
   </a-drawer>
 </template>

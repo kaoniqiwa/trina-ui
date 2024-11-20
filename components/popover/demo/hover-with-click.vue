@@ -33,7 +33,7 @@ The following example shows how to create a popover which can be hovered and cli
           <a @click="hide">Close</a>
         </div>
       </template>
-      <a-button>Hover and click / 悬停并单击</a-button>
+      <t-button>Hover and click / 悬停并单击</t-button>
     </a-popover>
   </a-popover>
 </template>

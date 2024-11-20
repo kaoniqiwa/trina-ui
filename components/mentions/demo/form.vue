@@ -41,13 +41,13 @@ to work with `Form`.
       ></a-mentions>
     </a-form-item>
     <a-form-item :wrapper-col="{ span: 12, offset: 5 }">
-      <a-button type="primary" @click="handleSubmit">Submit</a-button>
-      <a-button style="margin-left: 8px" @click="resetFields">Reset</a-button>
+      <t-button type="primary" @click="handleSubmit">Submit</t-button>
+      <t-button style="margin-left: 8px" @click="resetFields">Reset</t-button>
     </a-form-item>
   </a-form>
 </template>
 <script lang="ts" setup>
-import { Mentions, Form } from 'ant-design-vue';
+import { Mentions, Form } from '@kaoniqiwa/trina-ui';
 import { reactive } from 'vue';
 
 const useForm = Form.useForm;

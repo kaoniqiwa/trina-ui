@@ -17,10 +17,10 @@ The `style` and `class` are available to customize Notification.
 </docs>
 
 <template>
-  <a-button type="primary" @click="openNotification">Open the notification box</a-button>
+  <t-button type="primary" @click="openNotification">Open the notification box</t-button>
 </template>
 <script>
-import { notification } from 'ant-design-vue';
+import { notification } from '@kaoniqiwa/trina-ui';
 import { defineComponent } from 'vue';
 export default defineComponent({
   setup() {

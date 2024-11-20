@@ -17,7 +17,7 @@ tag: New
 
 ## API
 
-> 自 `ant-design-vue@4.0.0` 版本开始提供该组件。
+> 自 `@kaoniqiwa/trina-ui@4.0.0` 版本开始提供该组件。
 
 ### 共同的 API
 

@@ -1,4 +1,4 @@
-import { message } from 'ant-design-vue';
+import { message } from '@kaoniqiwa/trina-ui';
 import { defineComponent } from 'vue';
 import CopyableIcon from './CopyableIcon.vue';
 

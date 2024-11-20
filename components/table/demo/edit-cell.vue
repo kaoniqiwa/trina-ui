@@ -17,7 +17,7 @@ Table with editable cells.
 </docs>
 
 <template>
-  <a-button class="editable-add-btn" style="margin-bottom: 8px" @click="handleAdd">Add</a-button>
+  <t-button class="editable-add-btn" style="margin-bottom: 8px" @click="handleAdd">Add</t-button>
   <a-table bordered :data-source="dataSource" :columns="columns">
     <template #bodyCell="{ column, text, record }">
       <template v-if="column.dataIndex === 'name'">

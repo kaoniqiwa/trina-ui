@@ -1,5 +1,5 @@
 import { defineComponent, ref, reactive } from 'vue';
-import { Form, FormItem, Input } from 'ant-design-vue';
+import { Form, FormItem, Input } from '@kaoniqiwa/trina-ui';
 import type { ComponentDemo } from '../../interface';
 
 const Demo = defineComponent({

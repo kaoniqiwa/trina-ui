@@ -33,14 +33,14 @@ Modify theme by `theme` prop.
         <a-input v-model:value="data.borderRadius" />
       </a-form-item>
       <a-form-item name="submit" :wrapper-col="{ offset: 4, span: 20 }">
-        <a-button type="primary">submit</a-button>
+        <t-button type="primary">submit</t-button>
       </a-form-item>
     </a-form>
   </a-config-provider>
 </template>
 <script lang="ts" setup>
 import { ref } from 'vue';
-import { theme } from 'ant-design-vue';
+import { theme } from '@kaoniqiwa/trina-ui';
 
 const defaultData = {
   borderRadius: 6,

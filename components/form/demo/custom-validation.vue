@@ -39,15 +39,15 @@ See more advanced usage at [async-validator](https://github.com/yiminghe/async-v
       <a-input-number v-model:value="formState.age" />
     </a-form-item>
     <a-form-item :wrapper-col="{ span: 14, offset: 4 }">
-      <a-button type="primary" html-type="submit">Submit</a-button>
-      <a-button style="margin-left: 10px" @click="resetForm">Reset</a-button>
+      <t-button type="primary" html-type="submit">Submit</t-button>
+      <t-button style="margin-left: 10px" @click="resetForm">Reset</t-button>
     </a-form-item>
   </a-form>
 </template>
 <script lang="ts" setup>
 import { reactive, ref } from 'vue';
-import type { Rule } from 'ant-design-vue/es/form';
-import type { FormInstance } from 'ant-design-vue';
+import type { Rule } from '@kaoniqiwa/trina-ui/es/form';
+import type { FormInstance } from '@kaoniqiwa/trina-ui';
 interface FormState {
   pass: string;
   checkPass: string;

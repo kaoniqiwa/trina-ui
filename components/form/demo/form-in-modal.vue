@@ -17,7 +17,7 @@ When user visit a page with a list of items, and want to create a new item. The 
 </docs>
 <template>
   <div>
-    <a-button type="primary" @click="visible = true">New Collection</a-button>
+    <t-button type="primary" @click="visible = true">New Collection</t-button>
     <a-modal
       v-model:open="visible"
       title="Create a new collection"
@@ -48,7 +48,7 @@ When user visit a page with a list of items, and want to create a new item. The 
 </template>
 <script lang="ts" setup>
 import { reactive, ref, toRaw } from 'vue';
-import type { FormInstance } from 'ant-design-vue';
+import type { FormInstance } from '@kaoniqiwa/trina-ui';
 
 interface Values {
   title: string;

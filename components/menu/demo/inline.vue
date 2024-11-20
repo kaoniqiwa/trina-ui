@@ -29,7 +29,7 @@ Vertical menu with inline submenus.
 <script lang="ts" setup>
 import { reactive, ref, watch, VueElement, h } from 'vue';
 import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons-vue';
-import type { MenuProps, ItemType } from 'ant-design-vue';
+import type { MenuProps, ItemType } from '@kaoniqiwa/trina-ui';
 
 const selectedKeys = ref<string[]>(['1']);
 const openKeys = ref<string[]>(['sub1']);

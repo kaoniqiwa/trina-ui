@@ -59,7 +59,7 @@ export default defineComponent({
         return;
       }
       if (e.keyCode === KEYCODE.ENTER || e.type === 'click') {
-        // https://github.com/vueComponent/ant-design-vue/issues/1316
+        // https://github.com/kaoniqiwa/trina-ui/issues/1316
         props.quickGo(validValue.value);
 
         goInputText.value = '';

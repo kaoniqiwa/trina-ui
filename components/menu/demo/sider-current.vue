@@ -31,7 +31,7 @@ Click the menu and you will see that all the other menus gets collapsed to keep 
 <script lang="ts" setup>
 import { VueElement, h, reactive } from 'vue';
 import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons-vue';
-import { ItemType } from 'ant-design-vue';
+import { ItemType } from '@kaoniqiwa/trina-ui';
 
 function getItem(
   label: VueElement | string,

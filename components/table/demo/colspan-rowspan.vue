@@ -28,7 +28,7 @@ Table cell supports `colSpan` and `rowSpan` that set in render return object. Wh
   </a-table>
 </template>
 <script lang="ts" setup>
-import type { TableColumnType } from 'ant-design-vue';
+import type { TableColumnType } from '@kaoniqiwa/trina-ui';
 // In the fifth row, other columns are merged into first column
 // by setting it's colSpan to be 0
 const sharedOnCell = (_, index) => {

@@ -34,7 +34,7 @@ In order to fit in more tabs, they can slide left and right (or up and down).
 </template>
 <script lang="ts" setup>
 import { ref } from 'vue';
-import type { TabsProps } from 'ant-design-vue';
+import type { TabsProps } from '@kaoniqiwa/trina-ui';
 const mode = ref<TabsProps['tabPosition']>('top');
 const activeKey = ref(1);
 const callback: TabsProps['onTabScroll'] = val => {

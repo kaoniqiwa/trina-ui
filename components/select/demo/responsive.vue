@@ -22,8 +22,8 @@ Set a number and automatically fold after exceeding.
 <template>
   <a-space direction="vertical" style="width: 100%">
     <a-space>
-      <a-button type="primary" @click="maxTagCount++">maxTagCount++</a-button>
-      <a-button type="primary" @click="maxTagCount--">maxTagCount--</a-button>
+      <t-button type="primary" @click="maxTagCount++">maxTagCount++</t-button>
+      <t-button type="primary" @click="maxTagCount--">maxTagCount--</t-button>
     </a-space>
 
     <h2>maxTagCount: {{ maxTagCount }}</h2>
@@ -49,8 +49,8 @@ Set a number and automatically fold after exceeding.
       :options="options"
     ></a-select>
     <a-space>
-      <a-button type="primary" @click="maxTagTextLength++">maxTagTextLength++</a-button>
-      <a-button type="primary" @click="maxTagTextLength--">maxTagTextLength--</a-button>
+      <t-button type="primary" @click="maxTagTextLength++">maxTagTextLength++</t-button>
+      <t-button type="primary" @click="maxTagTextLength--">maxTagTextLength--</t-button>
     </a-space>
     <h2>maxTagTextLength: {{ maxTagTextLength }}</h2>
     <a-select
@@ -64,7 +64,7 @@ Set a number and automatically fold after exceeding.
   </a-space>
 </template>
 <script lang="ts" setup>
-import type { SelectProps } from 'ant-design-vue';
+import type { SelectProps } from '@kaoniqiwa/trina-ui';
 import { ref } from 'vue';
 const options = ref<SelectProps['options']>([]);
 

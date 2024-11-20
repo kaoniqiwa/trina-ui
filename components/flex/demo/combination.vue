@@ -30,7 +30,7 @@ Nesting can achieve more complex layouts.
             “antd is an enterprise-class UI design language and Vue UI library.”
           </a-typography-title>
         </a-typography>
-        <a-button type="primary" href="https://antdv.com" target="_blank">Get Start</a-button>
+        <t-button type="primary" href="https://antdv.com" target="_blank">Get Start</t-button>
       </a-flex>
     </a-flex>
   </a-card>

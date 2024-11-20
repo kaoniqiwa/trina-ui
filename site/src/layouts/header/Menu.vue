@@ -18,14 +18,14 @@
       </a-select-option>
       <a-select-option value="1.x" @click="changeVersion('1x')">1.x (For Vue 2)</a-select-option> -->
     </a-select>
-    <a-button
+    <t-button
       key="lang-button"
       size="small"
       class="header-button header-lang-button"
       @click="onLangChange"
     >
       {{ $t('app.header.lang') }}
-    </a-button>
+    </t-button>
     <!-- <More /> -->
     <Github />
   </template>
@@ -36,7 +36,7 @@ import Github from './Github.vue';
 import More from './More.vue';
 import Navigation from './Navigation.vue';
 import Ecosystem from './Ecosystem.vue';
-import { version } from 'ant-design-vue';
+import { version } from '@kaoniqiwa/trina-ui';
 import { isZhCN, getLocalizedPathname } from '../../utils/util';
 import { useRoute } from 'vue-router';
 export default defineComponent({

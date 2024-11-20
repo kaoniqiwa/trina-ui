@@ -33,7 +33,7 @@ Replace the title,key and children fields in treeNode with the corresponding fie
 </template>
 <script lang="ts" setup>
 import { Ref, ref, watch } from 'vue';
-import type { TreeProps } from 'ant-design-vue';
+import type { TreeProps } from '@kaoniqiwa/trina-ui';
 const expandedKeys = ref<string[]>(['0-0-0', '0-0-1']);
 const selectedKeys = ref<string[]>(['0-0-0', '0-0-1']);
 const checkedKeys = ref<string[]>(['0-0-0', '0-0-1']);

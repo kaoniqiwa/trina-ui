@@ -1,4 +1,4 @@
-import classNames from 'ant-design-vue/es/_util/classNames';
+import classNames from '@kaoniqiwa/trina-ui/es/_util/classNames';
 import makeStyle from './utils/makeStyle';
 import type { PropType } from 'vue';
 import { defineComponent, toRefs } from 'vue';

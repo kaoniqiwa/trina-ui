@@ -78,7 +78,7 @@ app.use(Button).mount('#app');
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <a-button type="primary">Button></a-button>
+    <t-button type="primary">Button></t-button>
   </div>
 </template>
 ...

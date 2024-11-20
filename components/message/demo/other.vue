@@ -18,13 +18,13 @@ Messages of success, error and warning types.
 
 <template>
   <a-space>
-    <a-button @click="success">Success</a-button>
-    <a-button @click="error">Error</a-button>
-    <a-button @click="warning">Warning</a-button>
+    <t-button @click="success">Success</t-button>
+    <t-button @click="error">Error</t-button>
+    <t-button @click="warning">Warning</t-button>
   </a-space>
 </template>
 <script lang="ts" setup>
-import { message } from 'ant-design-vue';
+import { message } from '@kaoniqiwa/trina-ui';
 const success = () => {
   message.success('This is a success message');
 };

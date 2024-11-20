@@ -31,7 +31,7 @@ Large size tabs are usally used in page header, and small size could be used in 
 </template>
 <script lang="ts" setup>
 import { ref } from 'vue';
-import type { TabsProps } from 'ant-design-vue';
+import type { TabsProps } from '@kaoniqiwa/trina-ui';
 const size = ref<TabsProps['size']>('small');
 const activeKey = ref('1');
 </script>

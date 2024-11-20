@@ -20,7 +20,7 @@ By specifying `arrow` prop with `{ pointAtCenter: true }`, the arrow will point 
   <a-space style="display: flex; flex-wrap: wrap">
     <template v-for="placement in placements" :key="placement">
       <a-dropdown :placement="placement" :arrow="{ pointAtCenter: true }">
-        <a-button>{{ placement }}</a-button>
+        <t-button>{{ placement }}</t-button>
         <template #overlay>
           <a-menu>
             <a-menu-item>

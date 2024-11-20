@@ -17,10 +17,10 @@ Manually updating and destroying a modal from `Modal.method`.
 </docs>
 
 <template>
-  <a-button @click="countDown">Open modal to close in 5s</a-button>
+  <t-button @click="countDown">Open modal to close in 5s</t-button>
 </template>
 <script lang="ts" setup>
-import { Modal } from 'ant-design-vue';
+import { Modal } from '@kaoniqiwa/trina-ui';
 const countDown = () => {
   let secondsToGo = 5;
   const modal = Modal.success({

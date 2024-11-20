@@ -23,7 +23,7 @@ The Drawer can appear from any edge of the screen.
     <a-radio value="bottom">bottom</a-radio>
     <a-radio value="left">left</a-radio>
   </a-radio-group>
-  <a-button type="primary" @click="showDrawer">Open</a-button>
+  <t-button type="primary" @click="showDrawer">Open</t-button>
   <a-drawer
     title="Basic Drawer"
     :placement="placement"
@@ -38,7 +38,7 @@ The Drawer can appear from any edge of the screen.
 </template>
 <script lang="ts" setup>
 import { ref } from 'vue';
-import type { DrawerProps } from 'ant-design-vue';
+import type { DrawerProps } from '@kaoniqiwa/trina-ui';
 const placement = ref<DrawerProps['placement']>('left');
 const open = ref<boolean>(false);
 

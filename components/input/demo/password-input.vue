@@ -35,7 +35,7 @@ Input type of password.
         v-model:visible="visible"
         placeholder="input password"
       />
-      <a-button @click="visible = !visible">{{ visible ? 'Hide' : 'Show' }}</a-button>
+      <t-button @click="visible = !visible">{{ visible ? 'Hide' : 'Show' }}</t-button>
     </a-space>
   </a-space>
 </template>

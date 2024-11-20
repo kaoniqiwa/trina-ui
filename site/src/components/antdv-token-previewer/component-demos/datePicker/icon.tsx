@@ -1,4 +1,4 @@
-import { DatePicker } from 'ant-design-vue';
+import { DatePicker } from '@kaoniqiwa/trina-ui';
 import type { ComponentDemo } from '../../interface';
 
 const Demo = () => <DatePicker />;

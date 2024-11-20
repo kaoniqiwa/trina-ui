@@ -37,7 +37,7 @@ Custom suffix icon
 <script lang="ts" setup>
 import { SmileOutlined } from '@ant-design/icons-vue';
 import { ref } from 'vue';
-import type { CascaderProps } from 'ant-design-vue';
+import type { CascaderProps } from '@kaoniqiwa/trina-ui';
 const options: CascaderProps['options'] = [
   {
     value: 'zhejiang',

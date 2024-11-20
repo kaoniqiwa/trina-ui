@@ -25,17 +25,17 @@ Use `progress` for customize progress bar.
     :progress="progress"
     @change="handleChange"
   >
-    <a-button>
+    <t-button>
       <upload-outlined></upload-outlined>
       Click to Upload
-    </a-button>
+    </t-button>
   </a-upload>
 </template>
 <script lang="ts" setup>
-import { message } from 'ant-design-vue';
+import { message } from '@kaoniqiwa/trina-ui';
 import { UploadOutlined } from '@ant-design/icons-vue';
 import { ref } from 'vue';
-import type { UploadChangeParam, UploadProps } from 'ant-design-vue';
+import type { UploadChangeParam, UploadProps } from '@kaoniqiwa/trina-ui';
 const handleChange = (info: UploadChangeParam) => {
   if (info.file.status !== 'uploading') {
     console.log(info.file, info.fileList);

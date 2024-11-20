@@ -25,7 +25,7 @@ Built-in directory tree. `multiple` support `ctrl(Windows)` / `command(Mac)` sel
   ></a-directory-tree>
 </template>
 <script lang="ts" setup>
-import type { TreeProps } from 'ant-design-vue';
+import type { TreeProps } from '@kaoniqiwa/trina-ui';
 import { ref } from 'vue';
 
 const expandedKeys = ref<string[]>(['0-0', '0-1']);
